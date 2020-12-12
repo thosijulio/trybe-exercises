@@ -1,4 +1,4 @@
-# Trybe
+# Trybe - Exercícios
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Julio Henrique Thosi](https://www.linkedin.com/in/thosijulio/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
