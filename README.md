@@ -1,101 +1,50 @@
-## Dia 1.3: Unix & Bash - Parte 1
+# Trybe - Exercícios
 
-### &nbsp; Descrição dos Exercícios - Parte 1: Criação de arquivos e diretórios
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Julio Henrique Thosi](https://www.linkedin.com/in/thosijulio/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
+_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
-  ### &nbsp;&nbsp; Exercicio 1 - [e01.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e01.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar um diretório com o nome 'unix_tests' e navegar até ele.<br><br>
+O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-  ### &nbsp;&nbsp; Exercicio 2 - [e02.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e02.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar um arquivo de texto com o nome 'trybe.txt'.<br><br>
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-  ### &nbsp;&nbsp; Exercicio 3 - [e03.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e03.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar uma cópia do arquivo 'trybe.txt' com o nome 'trybe_backup.txt'.<br><br>
+##### Bloco 1: Introdução - Unix, Bash e Shell Script
 
-  ### &nbsp;&nbsp; Exercicio 4 - [e04.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e04.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Renomear o arquivo 'trybe.txt'.<br><br>
+- [x] 1-3: _Unix & Bash - Parte 1_
+- [ ] 1-4: _Unix & Bash - Parte 2_
 
-  ### &nbsp;&nbsp; Exercicio 5 - [e05.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e05.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar um diretório dentro da pasta 'unix_tests' com o nome 'backup'.<br><br>
+##### Bloco 2: Git, GitHub e Internet
 
-  ### &nbsp;&nbsp; Exercicio 6 - [e06.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e06.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mover o arquivo 'trybe.backup' para o diretório 'backup'.<br><br>
+- [ ] 2-1: _O que é e para que serve?_
+- [ ] 2-2: _Entendendo os comandos_
+- [ ] 2-3: _Internet - Entendendo como ela funciona_
 
-  ### &nbsp;&nbsp; Exercicio 7 - [e07.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e07.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar um diretório com o nome 'backup2' dentro de 'unix_tests'.<br><br>
+##### Bloco 3: Introdução à HTML e CSS
 
-  ### &nbsp;&nbsp; Exercicio 8 - [e08.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e08.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mover o arquivo 'trybe_backup.txt' da pasta 'backup' para a pasta 'backup2'.<br><br>
+- [ ] 3-1: _HTML & CSS - Estruturas de página_
+- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [ ] 3-4: _HTML Semântico_
+- [ ] 3-5: _[Projeto - Lessons Learned](https://thosijulio.github.io/projetos/lessons-learned)_
 
-  ### &nbsp;&nbsp; Exercicio 9 - [e09.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e09.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Apagar a pasta 'backup'.<br><br>
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
-  ### &nbsp;&nbsp; Exercicio 10 - [e10.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e10.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Renomear a pasta 'backup2' para 'backup'.<br><br>
+- [ ] 4-1: _JavaScript - Primeiros passos_
+- [ ] 4-2: _JavaScript - Array e loop For_
+- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4-4: _JavaScript - Objetos e funções_
+- [ ] 4-5: _[Projeto - Playground Functions](https://thosijulio.github.io/projetos/playground-functions)_
 
-  ### &nbsp;&nbsp; Exercicio 11 - [e11.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e11.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Ver o caminho completo do atual diretório e lista todos os arquivos que existem dentro dele.<br><br>
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
-  ### &nbsp;&nbsp; Exercicio 12 - [e12.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e12.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Apagar o diretório 'backup'.<br><br>
+- [ ] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _[Projeto - Arte com Pixels](https://thosijulio.github.io/projetos/pixels-art)_
+- [ ] 5-5: _[Projeto - Lista de taredas](https://thosijulio.github.io/projetos/todo-list)_
+- [ ] 5-5: _[(Bônus)Projeto - Meme Generator](https://thosijulio.github.io/projetos/meme-generator)_
+- [ ] 5-5: _[(Bônus)Projeto - Adivinhe a Cor](https://thosijulio.github.io/projetos/collor-guess)_
+- [ ] 5-5: _[(Bônus)Projeto - Carta Misteriosa](https://thosijulio.github.io/projetos/mistery-letter)_
 
-  ### &nbsp;&nbsp; Exercicio 13 - [e13.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e13.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Limpar o terminal.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 14 - [e14.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e14.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mostrar os cinco primeiros itens do arquivo 'skills.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 15 - [e15.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e15.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mostrar os quatro últimos itens do arquivo 'skills.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 16 - [e16.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_01/e16.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Apagar todos os arquivos com a extensão '.txt'.<br><br><br><br>
-
-  ### &nbsp; Descrição dos Exercícios - Parte 2: Manipulação & Busca
-
-
-  ### &nbsp;&nbsp; Exercicio 1 - [e01.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e01.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Baixar um arquivo com o nome 'countries.txt' utilizando o comando 'curl'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 2 - [e02.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e02.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mostrar todo o conteúdo do arquivo 'countries.txt' na tela.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 3 - [e03.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e03.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mostrar o conteúdo de 'countries.txt', página por página, até encontrar a Zambia.<br><br>
-  
-  ### &nbsp;&nbsp; Exercicio 4 - [e04.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e04.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Mostrar o conteúdo do arquivo 'countries.txt', página por página, e utilizar um comando para buscar por Zambia.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 5 - [e05.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e05.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Buscar por Brazil no 'countries.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 6 - [e06.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e06.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Buscar novamente por brazil, mas agora com letras minúsculas.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 7 - [e07.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e07.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Buscar por frases que não contenham a palavra 'fox' dentro de 'phrases.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 8 - [e08.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e08.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Contar o número de palavras do arquivo 'phrases.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 9 - [e09.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e09.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Contar o número de linhas do arquivo 'phrases.txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 10 - [e10.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e10.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criar os arquivos 'empty.tbt' e 'empty.pdf'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 11 - [e11.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e11.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Listar todos os arquivos do diretório 'unix_tests'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 12 - [e12.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e12.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Listar todos os arquivos que terminem com 'txt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 13 - [e13.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e13.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Listar todos os arquivos que terminem com 'txt' ou 'tbt'.<br><br>
-
-  ### &nbsp;&nbsp; Exercicio 14 - [e14.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e14.sh)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Acessar o manual do comando ls.<br><br>
-
-  
-  
-
+# [...]
