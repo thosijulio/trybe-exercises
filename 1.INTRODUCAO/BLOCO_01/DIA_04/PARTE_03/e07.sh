@@ -1,0 +1,3 @@
+jobs
+fg 1
+ctrl+z

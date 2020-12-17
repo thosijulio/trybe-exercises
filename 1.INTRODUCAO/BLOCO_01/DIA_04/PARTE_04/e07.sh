@@ -1,0 +1,1 @@
+rev fortune.txt
