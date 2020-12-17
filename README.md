@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - Lessons Learned](https://thosijulio.github.io/projetos/lessons-learned)_
+- [ ] 3-5: _[Projeto - Lessons Learned](https://thosijulio.github.io/trybe-projects/3.5.lessons-learned)_
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions](https://thosijulio.github.io/projetos/playground-functions)_
+- [ ] 4-5: _[Projeto - Playground Functions](https://thosijulio.github.io/trybe-projects/4.5.playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -41,10 +41,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Arte com Pixels](https://thosijulio.github.io/projetos/pixels-art)_
-- [ ] 5-5: _[Projeto - Lista de taredas](https://thosijulio.github.io/projetos/todo-list)_
-- [ ] 5-5: _[(Bônus)Projeto - Meme Generator](https://thosijulio.github.io/projetos/meme-generator)_
-- [ ] 5-5: _[(Bônus)Projeto - Adivinhe a Cor](https://thosijulio.github.io/projetos/collor-guess)_
-- [ ] 5-5: _[(Bônus)Projeto - Carta Misteriosa](https://thosijulio.github.io/projetos/mistery-letter)_
+- [ ] 5-5: _[Projeto - Arte com Pixels](https://thosijulio.github.io/trybe-projects/5.5.pixels-art)_
+- [ ] 5-6: _[Projeto - Lista de taredas](https://thosijulio.github.io/trybe-projects/5.6.todo-list)_
+- [ ] 5-7: _[(Bônus)Projeto - Meme Generator](https://thosijulio.github.io/trybe-projects/5.7.meme-generator)_
+- [ ] 5-8: _[(Bônus)Projeto - Adivinhe a Cor](https://thosijulio.github.io/trybe-projects/5.8.collor-guess)_
+- [ ] 5-8: _[(Bônus)Projeto - Carta Misteriosa](https://thosijulio.github.io/trybe-projects/5.8.mistery-letter)_
 
 # [...]
