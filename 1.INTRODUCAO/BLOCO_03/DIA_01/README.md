@@ -10,3 +10,5 @@ Continuando a partir do exemplo anterior, crie:
 1. Um parágrafo para cada pessoa da sua lista;
 2. Um link entre a sua lista e os parágrafos de pessoas;
 3. Um link para a página do Google.
+
+https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html
