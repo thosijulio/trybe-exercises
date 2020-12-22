@@ -18,7 +18,7 @@
 ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
 
-  ### &nbsp;&nbsp; Exercicio 3 - [Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
+  ### &nbsp;&nbsp; Exercicio 3 - [Construindo o seu primeiro Portfólio Web!](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Criação de um portfólio que deve conter as seguintes informações:<br>
   **.** Seu nome completo;<br>
   **.** Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;<br>
