@@ -9,7 +9,7 @@
 **3.** Adicione uma imagem que está no seu computador, local.<br><br>
 
   ### &nbsp;&nbsp; Exercicio 2 - [e02.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.1/1.INTRODUCAO/BLOCO_03/DIA_01/e02.html)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Continuando a partir do exemplo anterior, crie: <br>
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>Continuando a partir do exemplo anterior, crie: <br>
   **1.** Um parágrafo para cada pessoa da sua lista;<br>
   **2.** Um link entre a sua lista e os parágrafos de pessoas;<br>
   **3.** Um link para a página do Google.
