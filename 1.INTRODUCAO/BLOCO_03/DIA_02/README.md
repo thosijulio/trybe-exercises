@@ -20,14 +20,10 @@
   **6.** Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.<br><br>
 
   ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e03.html)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>Continuando a partir do exemplo anterior, crie: <br>
-  **1.** ;<br>
-  **2.** ;<br>
-  **3.** ;
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>
+  **2.** Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo;<br>
 
-
-### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
-
+  ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
   ### &nbsp;&nbsp; Exercicio 3 - [Estilizando seu Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>

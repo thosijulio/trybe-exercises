@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 20cm;
+}
+
+body {
+    font-size: 16px;
+}
+
+#yellow {
+    background-color: yellow;
+    text-align: justify;
+}
+
+#red {
+    background-color: red;
+    text-decoration: line-through;
+}
+
+#brown {
+    background-color: brown;
+}
