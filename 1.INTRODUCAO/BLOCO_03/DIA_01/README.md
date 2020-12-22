@@ -3,16 +3,6 @@
 ### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
 
 
-<<<<<<< HEAD
-Continuando a partir do exemplo anterior, crie:
-1. Um parágrafo para cada pessoa da sua lista;
-2. Um link entre a sua lista e os parágrafos de pessoas;
-3. Um link para a página do Google.
-
-Exercicio 3
-
-Criar um Portfólio Web.
-=======
   ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.1/1.INTRODUCAO/BLOCO_03/DIA_01/e01.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> **1.** Crie uma lista de pessoas que você já fez amizade na Trybe;<br>
 **2.** Adicione uma imagem que venha de uma URL externa;<br>
@@ -38,4 +28,3 @@ Criar um Portfólio Web.
   **.** Um link externo para algum blog de que você goste, que abra em uma nova aba;<br>
   **.** Partes do seu portfólio destacadas com negrito e/ou itálico; 
   **.** Um índice com links internos para as diferentes seções do seu portfólio. 
->>>>>>> 59bc555878bba112d64fe8c6fc605ec7ae7044f2
