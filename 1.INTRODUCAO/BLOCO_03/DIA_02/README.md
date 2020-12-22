@@ -19,9 +19,9 @@
   **5.** Explore as propriedades font-style, line-height, text-align e text-decoration;<br>
   **6.** Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.<br><br>
 
-  ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e03.html)
+  ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e03.html)/[e03.css](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e03.css)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>
-  **2.** Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo;<br>
+  **1.** Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo;<br>
 
   ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
@@ -32,7 +32,7 @@
   **3.** Procure uma palheta de cores com que você mais se identifica e que você pode gerar nesse site: coolors.co;<br>
   **4.** Usar a extensão "Live Server", para executar o código enquanto o desenvolve.<br>
 
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: Seu Portfólio Web deve ser estilizado usando as informações a seguir:</b> <br>
+  <b>&nbsp;&nbsp;&nbsp;O Portfólio Web deve ser estilizado usando as informações a seguir:</b> <br>
   **.** Defina fontes diferentes para o seu nome e para a descrição que você criou;<br>
   **.** Defina uma cor base de background do seu Portfólio Web;<br>
   **.** Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;<br>
