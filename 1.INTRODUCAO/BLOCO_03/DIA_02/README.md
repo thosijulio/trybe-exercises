@@ -11,10 +11,13 @@
 **4.** Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.<br><br>
 
   ### &nbsp;&nbsp; Exercicio 2 - [e02.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e02.html)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>Continuando a partir do exemplo anterior, crie: <br>
-  **1.** ;<br>
-  **2.** ;<br>
-  **3.** ;
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b><br>
+  **1.** Modifique o família do h1 para sans-serif;<br>
+  **2.** Deixe o paragrafo com o font-weight 600;<br>
+  **3.** Modifique o font-size do body para 16px;<br>
+  **4.** Coloque o tamanho do paragrafo com o tamanho de 3 vezes o padrão do body;<br>
+  **5.** Explore as propriedades font-style, line-height, text-align e text-decoration;<br>
+  **6.** Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.<br><br>
 
   ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e03.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>Continuando a partir do exemplo anterior, crie: <br>
