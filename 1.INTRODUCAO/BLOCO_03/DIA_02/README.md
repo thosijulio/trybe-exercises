@@ -26,12 +26,14 @@
   ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
   ### &nbsp;&nbsp; Exercicio 3 - [Estilizando seu Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** ;<br>
-  **.** .
+  <b>&nbsp;&nbsp;&nbsp;Antes de começar, você deve seguir as instruções abaixo e fazer o setup para poder iniciar o exercício:</b> <br>
+  **1.** Entre no diretório que você criou no dia anterior;<br>
+  **2.** Adicione a tag <style></style>;<br>
+  **3.** Procure uma palheta de cores com que você mais se identifica e que você pode gerar nesse site: coolors.co;<br>
+  **4.** Usar a extensão "Live Server", para executar o código enquanto o desenvolve.<br>
+
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: Seu Portfólio Web deve ser estilizado usando as informações a seguir:</b> <br>
+  **.** Defina fontes diferentes para o seu nome e para a descrição que você criou;<br>
+  **.** Defina uma cor base de background do seu Portfólio Web;<br>
+  **.** Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;<br>
+  **.** Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos.
