@@ -25,7 +25,7 @@
 
   ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
-  ### &nbsp;&nbsp; Exercicio 3 - [Estilizando seu Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
+  ### &nbsp;&nbsp; Exercicio 1 - [Estilizando seu Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
   <b>&nbsp;&nbsp;&nbsp;Antes de começar, você deve seguir as instruções abaixo e fazer o setup para poder iniciar o exercício:</b> <br>
   **1.** Entre no diretório que você criou no dia anterior;<br>
   **2.** Adicione a tag <style></style>;<br>
