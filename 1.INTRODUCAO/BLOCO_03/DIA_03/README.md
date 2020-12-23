@@ -2,7 +2,6 @@
 
 ### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
 
-
   ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e01.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 **. Adicione borda:** Essa página web mostra uma galeria de fotos de cachorros da raça boxer. Nesse primeiro passo, adicione uma borda a todas as fotos. Se puder, tente fazer com que elas pareçam a moldura das fotos.<br>
@@ -14,6 +13,18 @@
   ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e03.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
 **. Adicione espaçamento:** As fotos estão muito próximas ao lado da div que representa a galeria, e isso parece estranho. Adicione espaçamento em torno de todos os lados da div da galeria, para que a aparência fique melhor.<br>
+
+  ### &nbsp;&nbsp; Exercicio 4 - [e04.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e04.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Posicione a criatura:** Essa página web contém uma imagem de um planeta, uma imagem de uma criatura, e uma div com uma saudação. Seu trabalho é fazer com que a criatura pareça estar sentada no planeta e dizendo a saudação. Nessa primeira etapa, use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta.<br>
+
+  ### &nbsp;&nbsp; Exercicio 5 - [e05.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e05.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Posicione a saudação:** Nessa etapa, também posicione a saudação em cima do planeta.<br>
+
+  ### &nbsp;&nbsp; Exercicio 6 - [e06.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e06.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Ordene-os:** Agora, use uma propriedade z-index para garantir que a saudação sempre apareça em cima da criatura, e não atrás.<br>
 
 ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
