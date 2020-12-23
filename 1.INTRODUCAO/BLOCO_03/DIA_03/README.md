@@ -1,6 +1,21 @@
-## Dia 3.2: HTML & CSS - Primeiros passos em CSS
+## Dia 3.3: HTML & CSS - Seletores e posicionamento
 
-### &nbsp; Descrição dos Exercícios:
+### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
+
+
+  ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e01.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
+**. Adicione borda:** Essa página web mostra uma galeria de fotos de cachorros da raça boxer. Nesse primeiro passo, adicione uma borda a todas as fotos. Se puder, tente fazer com que elas pareçam a moldura das fotos.<br>
+
+  ### &nbsp;&nbsp; Exercicio 2 - [e02.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e02.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Adicione margem:** As fotos parecem estar muito próximas umas das outras. Adicione margem a elas, de todos os lados, ou apenas nos lados que as separam.<br>
+
+  ### &nbsp;&nbsp; Exercicio 3 - [e03.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e03.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Adicione espaçamento:** As fotos estão muito próximas ao lado da div que representa a galeria, e isso parece estranho. Adicione espaçamento em torno de todos os lados da div da galeria, para que a aparência fique melhor.<br>
+
+### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
   ### &nbsp;&nbsp; Exercicio 1 - [Layout e Box Model no Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
   <b>&nbsp;&nbsp;&nbsp;Antes de começar, você deve seguir as instruções abaixo e fazer o setup para poder iniciar o exercício:</b> <br>
