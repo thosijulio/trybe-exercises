@@ -50,6 +50,10 @@
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
 **. Adicione regras descendentes:** Essa página web descreve o Genghis Khan, um imperador que tinha muitos descendentes, e inclui uma tabela com apenas alguns dos imperadores que descendem dele. Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo dessas células da tabela.<br>
 
+  ### &nbsp;&nbsp; Exercicio 4.2 - [e4.2.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e4.2.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Adicione regras descendentes:** Agora, adicione outra regra que atinja apenas os elementos que têm o nome de classe "reign" na tabela. Como na primeira etapa, a regra deve alterar a cor de fundo dessas células da tabela. Escolha uma cor diferente da que você escolheu para a outra regra!<br>
+
 ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
   ### &nbsp;&nbsp; Exercicio 1 - [Layout e Box Model no Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
