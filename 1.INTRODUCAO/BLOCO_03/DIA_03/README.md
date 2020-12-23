@@ -44,6 +44,12 @@
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
 **. Adicione margens:** Agora que temos os elementos flutuando um ao lado do outro, devemos nos lembrar de separá-los com algum espaço em branco. Adicione margens apropriadas à foto e à barra lateral.<br>
 
+### &nbsp; Desafio 4 - Descendentes de Khan:
+
+  ### &nbsp;&nbsp; Exercicio 4.1 - [e4.1.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.3/1.INTRODUCAO/BLOCO_03/DIA_03/e4.1.html)
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+**. Adicione regras descendentes:** Essa página web descreve o Genghis Khan, um imperador que tinha muitos descendentes, e inclui uma tabela com apenas alguns dos imperadores que descendem dele. Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo dessas células da tabela.<br>
+
 ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
   ### &nbsp;&nbsp; Exercicio 1 - [Layout e Box Model no Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
