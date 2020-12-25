@@ -3,7 +3,7 @@
 ### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
 
 
-  ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.2/1.INTRODUCAO/BLOCO_03/DIA_02/e01.html)
+  ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/e01.html)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
 **1.** Para realizar este exercício copie o código HTML prosposto. Em seguida, faça a implementação das propriedades CSS e se necessário faça adições a estrutura HTML existente, para que o resultado final seja similar a imagem referência;<br>
 **2.** Lembre-se que a estrutura da página deve ser mantida para que a semântica do código seja preservada.<br>
@@ -11,7 +11,7 @@
 
   ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
-  ### &nbsp;&nbsp; Exercicio 1 - [Estilizando seu Portfólio Web](https://github.com/thosijulio/thosijulio.github.io/blob/main/index.html)
+  ### &nbsp;&nbsp; Exercicio 1 - [Stomatopoda](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/Stomatopoda/)
   <b>&nbsp;&nbsp;&nbsp;Antes de começar, crie um arquivo HTML e copie o código proposto.</b> <br>
   O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre HTML semântico.
   Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. A estilização da página fica a seu critério.
