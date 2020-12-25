@@ -1,4 +1,4 @@
-## Dia 3.2: HTML & CSS - Primeiros passos em CSS
+## Dia 3.4: HTML & CSS - HTML Semântico
 
 ### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
 
