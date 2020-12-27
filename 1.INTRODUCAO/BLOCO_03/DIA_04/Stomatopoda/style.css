@@ -1,0 +1,106 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: #F5EDF0;
+}
+
+header {
+    background-color: #424C55;
+    padding: 5px;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    margin: -5px;
+    background-color: #424C55;
+}
+nav {
+    background-color: #424C55;
+}
+nav h2 {
+    text-align: center;
+    margin: 35px -5px 7px -5px;
+    background-color: #424C55;
+}
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+    background-color: #424C55;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+    background-color: #424C55;
+}
+
+nav a {
+    background-color: #424C55;
+}
+
+nav a:link {
+    color: white
+    background-color: #424C55;
+}
+
+nav a:visited {
+    color: wheat;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+aside {
+    float: right;
+    width: 30%;
+    border: 2px solid black ;
+    padding: 10px;
+    margin: 40px 5px 40px 5px;
+    background-color: #D1CCDC;
+    text-align: center;
+}
+
+aside th {
+    height: 50px;
+    background-color: #D1CCDC;
+    margin:0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+aside h3 {
+    text-align: center;
+    background-color: #D1CCDC;
+}
+.CCLeftTableItens {
+    text-align: center;
+    background-color: #D1CCDC;
+}
+
+.CCRightTableItens {
+    text-align: center;
+    background-color: #D1CCDC;
+}
+
+article {
+    padding: 5px;
+}
+
+#images {
+    text-align: center;
+}
+
+#images img {
+    border: 4px solid black;
+}
+
+#references{
+    margin: 10px
+}
