@@ -3,19 +3,19 @@
 ### &nbsp; Descrição dos Exercícios - Parte 1: Exercícios pré-aula
 
 
-  ### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/e01.html)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+  #### &nbsp;&nbsp; Exercicio 1 - [e01.html](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/e01.html)
+  ##### &nbsp;&nbsp;&nbsp;Conteúdo Solicitado:<br> 
 **1.** Para realizar este exercício copie o código HTML prosposto. Em seguida, faça a implementação das propriedades CSS e se necessário faça adições a estrutura HTML existente, para que o resultado final seja similar a imagem referência;<br>
 **2.** Lembre-se que a estrutura da página deve ser mantida para que a semântica do código seja preservada.<br>
 
 
   ### &nbsp; Descrição dos Exercícios - Parte 2: Exercícios pós-aula
 
-  ### &nbsp;&nbsp; Exercicio 1 - [Stomatopoda](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/Stomatopoda/)
-  <b>&nbsp;&nbsp;&nbsp;Antes de começar, crie um arquivo HTML e copie o código proposto.</b> <br>
+  #### &nbsp;&nbsp; Exercicio 1 - [Stomatopoda](https://github.com/thosijulio/trybe-exercises/blob/exercises/3.4/1.INTRODUCAO/BLOCO_03/DIA_04/Stomatopoda/)
+  ##### &nbsp;&nbsp;&nbsp;Antes de começar, crie um arquivo HTML e copie o código proposto.<br>
   O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre HTML semântico.
-  Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. A estilização da página fica a seu critério.
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> <br> 
+  Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. A estilização da página fica a seu critério.<br><br>
+  ##### &nbsp;&nbsp;&nbsp;Conteúdo Solicitado:<br>
   **1.** Adicione um cabeçalho na página contendo o título <b>Soco a 80km/h: Conheça o Stomatopoda</b>;<br>
   **2.** Adicione um conjunto de links que representam a área de navegação do site;<br>
   **3.** Crie um link chamado <b>Página Inicial</b>;<br>
