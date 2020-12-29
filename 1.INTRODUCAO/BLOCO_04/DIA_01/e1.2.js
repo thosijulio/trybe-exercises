@@ -1,0 +1,1 @@
+const birthCity = "Ribeirão Preto";
