@@ -3,7 +3,7 @@
 Nesse primeiro módulo, foi ensinado conteúdos necessários para iniciar uma carreira no mundo de desenvolvimento 
 Web, que são importantes antes de começar os módulos de front-end e back-end.
 
-### Resumo do conteúdo ensinado no módulo:
+### Resumo do conteúdo ensinado:
 
 1. Linux: Unix, Bash e Shell Script
 2. Internet: Entendendo como ela funciona, seus principais conceitos e terminologias
