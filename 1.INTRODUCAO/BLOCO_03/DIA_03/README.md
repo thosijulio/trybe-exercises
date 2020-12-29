@@ -70,3 +70,15 @@
   **.** Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;<br>
   **.** Adicione margin e padding nos elementos que julgue necessário;<br>
   **.** Coloque estilo somente nos ítens ímpares da lista das suas habilidades.<br>
+  
+  <h3 align=center>Me encontre:</h3>
+
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+ </p>
+ 
+ <h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+</h1>
