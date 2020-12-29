@@ -1,6 +1,6 @@
 ## Módulo 1: Fundamentos do Desenvolvimento Web
 
-Nesse primeiro módulo, foi ensinado conteúdos necessários para iniciar uma carreira no mundo de desenvolvimento 
+Neste primeiro módulo, foi ensinado conteúdos necessários para iniciar uma carreira no mundo de desenvolvimento 
 Web, que são importantes antes de começar os módulos de front-end e back-end.
 
 ### Resumo do conteúdo ensinado:
