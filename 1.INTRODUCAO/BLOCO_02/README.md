@@ -18,3 +18,16 @@ Neste bloco, foi ensinado os conceitos sobre Git e GitHub, seus principais coman
 12. Modelo cliente-servidor e suas partes
 13. Como funcionam os protocolos HTTP e HTTPS
 14. Quais os tipos de requisição podem ser feitos através desses protocolos
+
+<h3 align=center>Me encontre:</h3>
+
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+ </p>
+ 
+ <h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+</h1>
+
