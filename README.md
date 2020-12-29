@@ -1,4 +1,15 @@
-# Trybe - Exercícios
+<h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+</h1>
+
+
+<h1 align="center">Trybe - Exercícios</h1> 
+
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+ </p>
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Julio Henrique Thosi](https://www.linkedin.com/in/thosijulio/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
