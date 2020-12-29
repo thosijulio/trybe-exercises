@@ -30,4 +30,3 @@ Neste bloco, foi ensinado os conceitos sobre Git e GitHub, seus principais coman
  <h1 align="center">
     <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
 </h1>
-
