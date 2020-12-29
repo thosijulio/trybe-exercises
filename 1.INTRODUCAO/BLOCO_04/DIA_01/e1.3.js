@@ -1,1 +1,1 @@
-const birthYear = 1996;
+let birthYear = 1996;
