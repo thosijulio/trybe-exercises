@@ -14,4 +14,3 @@ Web, que são importantes antes de começar os módulos de front-end e back-end.
 7. JavaScript ES6
 8. JavaScript: Códigos assíncronos
 9. Testes unitários.
-
