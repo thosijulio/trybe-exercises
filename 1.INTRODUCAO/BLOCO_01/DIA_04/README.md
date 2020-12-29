@@ -113,3 +113,15 @@
 
   ### &nbsp;&nbsp; Exercicio 8 - [e08.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.4/1.INTRODUCAO/BLOCO_01/DIA_04/PARTE_04/e08.sh)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Executar o comando 'telnet. towel;blinkenlights.nl'.<br><br>
+  
+  <h3 align=center>Me encontre:</h3>
+
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+ </p>
+ 
+ <h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+</h1>
