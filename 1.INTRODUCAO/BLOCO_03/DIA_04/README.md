@@ -32,3 +32,15 @@
   **14.** Adicione um conteúdo adjacente ao artigo, disponibilizando um link para um vídeo que mostra o animal em ação;<br>
   **15.** Adicione um rodapé na página, mostrando algo do gênero "Conteúdo compilado por <insere seu nome>, <ano atual>".<br>
   <b>&nbsp;&nbsp;&nbsp;Obs:</b> para esse exercício, é obrigatório fazer uso de no mínimo elementos com as seguintes tags: <b> header , nav , article , section , h1 , h2 , h3, aside , footer , table </b> e <b>img</b>.
+  
+  <h3 align=center>Me encontre:</h3>
+
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+ </p>
+ 
+ <h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+</h1>
