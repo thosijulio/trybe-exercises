@@ -1,0 +1,1 @@
+let notaCandidato = 64;
