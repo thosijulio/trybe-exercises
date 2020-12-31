@@ -14,4 +14,3 @@ if (n > 1) {
 else {
     console.log ('Digite um valor maior que 1');
 }
-
