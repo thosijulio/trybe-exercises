@@ -1,4 +1,4 @@
-function exercicio1 () {
+
 let player = {
     name: 'Marta',
     lastName: 'Silva',
@@ -9,13 +9,15 @@ let player = {
         silver: 3 }
 }
 
-console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade');
-console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes');
-console.log ('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata');
+function exercicio1 (player) {
+    console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade');
+    console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes');
+    console.log ('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata');
 }
 
+let frutas = ['Pera', 'Banana', 'Laranja'];
+
 function exercicio2 () {
-    let frutas = ['Pera', 'Banana', 'Laranja'];
     for (let key in frutas ) {
         console.log(frutas[key]);
     }
