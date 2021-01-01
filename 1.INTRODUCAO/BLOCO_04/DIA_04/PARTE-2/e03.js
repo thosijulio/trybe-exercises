@@ -6,6 +6,5 @@ function menorValor (array) {
             }
         }
     }
+    return array.indexOf(menor);
 }
-
-menorValor([2, 4, 6, 7, 10, 0, -3]);
