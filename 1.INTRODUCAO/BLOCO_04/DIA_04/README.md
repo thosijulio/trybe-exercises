@@ -32,7 +32,7 @@ Crie um loop que percorra cada item do array frutas: <br>
 let frutas = ["Pera", "Banana", "Laranja"];
 ~~~
 
-### &nbsp;&nbsp; Exercicio 3 - [e03.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.3/1.INTRODUCAO/BLOCO_04/DIA_04/PRE-AULA/e3.1.js)
+### &nbsp;&nbsp; Exercicio 3.1 - [e3.1.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.3/1.INTRODUCAO/BLOCO_04/DIA_04/PRE-AULA/e3.1.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Pegue os exercícios 1.1 e 2.1 e faça com que todos eles sejam funções de um mesmo arquivo. <br>
 
