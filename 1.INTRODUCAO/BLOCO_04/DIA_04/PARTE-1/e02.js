@@ -6,3 +6,4 @@ let info = {
   };
 
   console.log(info);
+  
