@@ -64,9 +64,12 @@
         exercicio4 ();
 
         function exercicio5 () {
-            let tagPEmMaiusculo = document.getElementsByTagName ('p');
+            for (let key in document.getElementsByTagName('p')){
+                let tagPEmMaiusculo = document.getElementsByTagName ('p')[key];
+                tagPEmMaiusculo.style.textTransform = 'uppercase';
+            }
         }
-
+        exercicio5();
 
 
  //Crie uma função que mude a cor do quadrado vermelho para branco.
