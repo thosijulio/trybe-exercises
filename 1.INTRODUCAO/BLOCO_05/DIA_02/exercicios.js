@@ -12,3 +12,5 @@ exercicio2.className = 'main-content';
 document.body.appendChild(exercicio2);
 
 let exercicio3 = document.createElement('div');
+exercicio3.className = 'center-content';
+exercicio2.appendChild(exercicio3);
