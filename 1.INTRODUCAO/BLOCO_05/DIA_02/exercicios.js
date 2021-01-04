@@ -38,6 +38,11 @@ let exercicio8 = document.createElement ('ul');
 exercicio6.appendChild(exercicio8);
 for (index = 0; index < 10; index += 1) {
     let liItens = document.createElement ('li');
-    liItens.innerText = index+1;
+    liItens.innerText = index + 1;
     exercicio8.appendChild(liItens);
+}
+
+for (index = 0; index < 3; index += 1) {
+    exercicio9 = document.createElement('h3');
+    exercicio2.appendChild(exercicio9);
 }
