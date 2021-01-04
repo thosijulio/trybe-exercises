@@ -19,7 +19,13 @@ function numberDays () {
         let dayArray = document.createElement('li');
         const daysUl = document.querySelector('#days');
         dayArray.innerText = dezDaysList[key];
-        dayArray.className = 'Teste';
+        dayArray.className = 'day';
+        if (dayArray.innerText === '24' || dayArray.innerText === '25' || dayArray.innerText === '31') {
+            dayArray.className += ' holiday';
+        }
+        if (dayArray.innerText === '4' || dayArray.innerText === '11' || dayArray.innerText === '18' || dayArray.innerText === '25') {
+            dayArray.className += ' friday';
+        }
         daysUl.appendChild(dayArray);
 
     }
