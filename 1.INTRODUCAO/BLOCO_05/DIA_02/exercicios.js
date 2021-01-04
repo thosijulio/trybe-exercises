@@ -11,6 +11,7 @@ document.body.appendChild(exercicio1);
 let exercicio2 = document.createElement('div');
 exercicio2.className = 'main-content';
 document.body.appendChild(exercicio2);
+exercicio2.style.backgroundColor = 'green';
 
 let exercicio3 = document.createElement('div');
 exercicio3.className = 'center-content';
@@ -49,4 +50,10 @@ for (index = 0; index < 3; index += 1) {
     exercicio9 = document.createElement('h3');
     exercicio9.className = 'description';
     exercicio2.appendChild(exercicio9);
+}
+
+let exercicio15 = document.getElementsByTagName('li');
+for (index = exercicio15.length; index > 8; index -= 1) {
+    let itenRemoved = exercicio15[index-1];
+    exercicio8.removeChild(itenRemoved);
 }
