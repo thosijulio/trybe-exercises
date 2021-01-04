@@ -6,3 +6,9 @@ exercicio1.style.margin = '0';
 document.body.style.margin = '0';
 
 document.body.appendChild(exercicio1);
+
+let exercicio2 = document.createElement('div');
+exercicio2.className = 'main-content';
+document.body.appendChild(exercicio2);
+
+let exercicio3 = document.createElement('div');
