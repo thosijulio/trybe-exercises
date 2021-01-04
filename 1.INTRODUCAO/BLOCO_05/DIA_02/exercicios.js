@@ -46,3 +46,5 @@ for (index = 0; index < 3; index += 1) {
     exercicio9 = document.createElement('h3');
     exercicio2.appendChild(exercicio9);
 }
+
+exercicio1.className = 'title';
