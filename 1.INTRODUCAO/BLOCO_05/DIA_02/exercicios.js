@@ -4,6 +4,7 @@ exercicio1.style.textAlign = 'center';
 exercicio1.style.backgroundColor = 'Green';
 exercicio1.style.margin = '0';
 document.body.style.margin = '0';
+exercicio1.className = 'title';
 
 document.body.appendChild(exercicio1);
 
@@ -44,7 +45,6 @@ for (index = 0; index < 10; index += 1) {
 
 for (index = 0; index < 3; index += 1) {
     exercicio9 = document.createElement('h3');
+    exercicio9.className = 'description';
     exercicio2.appendChild(exercicio9);
 }
-
-exercicio1.className = 'title';
