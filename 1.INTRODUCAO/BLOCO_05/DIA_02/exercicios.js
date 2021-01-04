@@ -24,3 +24,7 @@ exercicio3.appendChild(exercicio4);
 let exercicio5 = document.createElement('div');
 exercicio5.className = 'left-content';
 exercicio2.appendChild(exercicio5);
+
+let exercicio6 = document.createElement('div');
+exercicio6.className = 'right-content';
+exercicio2.appendChild(exercicio6);
