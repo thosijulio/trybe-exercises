@@ -14,3 +14,8 @@ document.body.appendChild(exercicio2);
 let exercicio3 = document.createElement('div');
 exercicio3.className = 'center-content';
 exercicio2.appendChild(exercicio3);
+
+let exercicio4 = document.createElement('p');
+exercicio4.innerText = 'Resolução exercício 4';
+exercicio4.style.textAlign = 'center';
+exercicio3.appendChild(exercicio4);
