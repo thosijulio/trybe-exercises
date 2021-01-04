@@ -28,3 +28,11 @@ exercicio2.appendChild(exercicio5);
 let exercicio6 = document.createElement('div');
 exercicio6.className = 'right-content';
 exercicio2.appendChild(exercicio6);
+
+let exercicio7 = document.createElement('img');
+exercicio7.src = 'https://picsum.photos/200';
+exercicio7.className = 'small-image';
+exercicio5.appendChild(exercicio7);
+
+let exercicio8 = document.createElement ('ul');
+exercicio6.appendChild(exercicio8);
