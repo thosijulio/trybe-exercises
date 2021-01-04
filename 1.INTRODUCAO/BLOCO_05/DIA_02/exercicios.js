@@ -25,9 +25,11 @@ exercicio3.appendChild(exercicio4);
 let exercicio5 = document.createElement('div');
 exercicio5.className = 'left-content';
 exercicio2.appendChild(exercicio5);
+exercicio2.removeChild(exercicio5);
 
 let exercicio6 = document.createElement('div');
 exercicio6.className = 'right-content';
+exercicio6.style.marginRight = 'auto';
 exercicio2.appendChild(exercicio6);
 
 let exercicio7 = document.createElement('img');
@@ -48,5 +50,3 @@ for (index = 0; index < 3; index += 1) {
     exercicio9.className = 'description';
     exercicio2.appendChild(exercicio9);
 }
-
-exercicio2.removeChild(exercicio5);
