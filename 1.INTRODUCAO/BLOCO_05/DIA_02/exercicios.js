@@ -48,3 +48,5 @@ for (index = 0; index < 3; index += 1) {
     exercicio9.className = 'description';
     exercicio2.appendChild(exercicio9);
 }
+
+exercicio2.removeChild(exercicio5);
