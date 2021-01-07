@@ -37,6 +37,26 @@ function exercicio2 (feriados) {
     const botaoExerc2 = document.createElement ('button');
     const containerBotoes = document.querySelector('.buttons-container');
     botaoExerc2.id = 'btn-holiday';
+    botaoExerc2.innerText = 'Feriados';
     containerBotoes.appendChild(botaoExerc2);
 }
 exercicio2("feriados");
+
+function exercicio3 () {
+    const diasFeriados = document.getElementsByClassName('holiday');
+    for (let key in diasFeriados) {
+        const diasFeriados = document.getElementsByClassName('holiday');
+        const valorCorFeriados = 'green';
+        if (diasFeriados[key].style.backgroundColor === null) {
+            diasFeriados[key].style.backgroundColor = valorCorFeriados;
+        }
+        
+    }
+}
+
+function botaoFeriado() {
+    const botaoExerc2 = document.querySelector('#btn-holiday')
+    botaoExerc2.addEventListener ('click',exercicio3);
+}
+
+botaoFeriado();
