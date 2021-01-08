@@ -56,3 +56,16 @@ paiExerc3.appendChild(exerc3);
 
 let exerc4 = document.querySelector('#exerc3').parentNode.parentNode.nextElementSibling;
 }
+
+function exercPreAulaPT3 () {
+/*
+1. Remova todos os elementos da página, menos pai , elementoOndeVoceEsta e primeiroFilhoDoFilho.
+*/
+    let pai = document.getElementById('pai');
+    let ondeEsta = document.getElementById('elementoOndeVoceEsta');
+    pai.removeChild(pai.childNodes[1]);
+    pai.removeChild(pai.childNodes[4]);
+    pai.removeChild(pai.childNodes[5]);
+    pai.removeChild(pai.childNodes[3]);
+    ondeEsta.removeChild(ondeEsta.childNodes[3]);
+}
