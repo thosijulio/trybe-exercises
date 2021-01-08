@@ -39,45 +39,59 @@
       </div>
     </div>
     <script>
-        function exercicio1 () {
-            let tagP = document.getElementsByTagName ('p')[1];
-            tagP.innerText = 'Desejo trabalhar com desenvolvimento de software';
-        }
-        exercicio1 ();
-        
-        function exercicio2 () {
-            let mudarCor = document.getElementsByClassName ('main-content')[0];
-            mudarCor.style.backgroundColor = 'rgb(76,164,109)';
-        }
-        exercicio2 ();
+      document.querySelector ('*').style.textAlign = 'center';
 
-        function exercicio3 () {
-            let mudaCorQuadradoMeio = document.getElementsByClassName ('center-content')[0];
-            mudaCorQuadradoMeio.style.backgroundColor = 'white';
-        }
-        exercicio3 ();
+      function exerc1 () {
+        document.getElementsByTagName ('p')[1].innerText = 'Trabalhando com desenvolvimento de software';
+      }
 
-        function exercicio4 () {
-            let corrigeTextoH1 = document.getElementsByTagName ('h1')[0];
-            corrigeTextoH1.innerText = 'Exercício 5.1 - JavaScript';
-        }
-        exercicio4 ();
+      function exerc2 () {
+        document.getElementsByClassName ('main-content')[0].style.backgroundColor = 'rgb(76, 164, 109)';
+      }
 
-        function exercicio5 () {
-            for (let key in document.getElementsByTagName('p')){
-                let tagPEmMaiusculo = document.getElementsByTagName ('p')[key];
-                tagPEmMaiusculo.style.textTransform = 'uppercase';
-            }
-        }
-        exercicio5();
+      function exerc3 () {
+        document.getElementsByClassName ('center-content')[0].style.backgroundColor = 'white';
+      }
 
-        function exercicio6 () {
-            for (let key in document.getElementsByTagName ('p')) {
-                conteudoTagsP = document.getElementsByTagName('p')[key];
-                console.log(conteudoTagsP);
-            }
+      function exerc4 () {
+        document.getElementsByTagName ('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+      }
+
+      function exerc5 () {
+        let tagPMaiuscula = document.getElementsByTagName('p');
+
+        for (let index = 0; index < tagPMaiuscula.length; index += 1) {
+          tagPMaiuscula[index].style.textTransform = 'uppercase';
         }
-        exercicio6 ();
+      }
+
+      function exerc6 () {
+        tagPConsole = document.getElementsByTagName ('p');
+
+        for (let index = 0; index < tagPConsole; index += 1) {
+          console.log(tagPConsole[index].innerHTML);
+        }
+      }
+
+      exerc1();
+      exerc2();
+      exerc3();
+      exerc4();
+      exerc5();
+      exerc6();
+
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+ Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+ Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+ Crie uma função que mude a cor do quadrado vermelho para branco.
+ Crie uma função que corrija o texto da tag <h1>.
+ Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        */
     </script>
   </body>
 </html>
