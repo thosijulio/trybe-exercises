@@ -33,21 +33,23 @@ function exercicio1 () {
 
 exercicio1();
 
-function exercicio2 () {
-    const botaoExerc2 = document.createElement ('button');
-    const containerBotoes = document.querySelector('.buttons-container');
-    botaoExerc2.id = 'btn-holiday';
-    botaoExerc2.innerText = 'Feriados';
-    containerBotoes.appendChild(botaoExerc2);
+function exercicio2 (feriados) {
+    if (feriados === 'Feriados') {
+        const botaoExerc2 = document.createElement ('button');
+        const containerBotoes = document.querySelector('.buttons-container');
+        botaoExerc2.id = 'btn-holiday';
+        botaoExerc2.innerText = 'Feriados';
+        containerBotoes.appendChild(botaoExerc2);
+    }
 }
-exercicio2();
+exercicio2('Feriados');
 
 function exercicio3 () {
     
     let teste = document.querySelectorAll('.holiday');
     for (let key in teste) {
         if(teste[key].style.backgroundColor === 'green') {
-            teste[key].style.backgroundColor = '';
+            teste[key].style.backgroundColor = 'rgb(238,238,238)';
         }
         else {
             teste[key].style.backgroundColor = 'green';
@@ -62,3 +64,37 @@ function botaoFeriado() {
 }
 
 botaoFeriado();
+
+function exercicio4(sextou) {
+    if(sextou === 'Sexta-feira') {
+        const containerBotoes = document.querySelector('.buttons-container');
+        let botaoSexta = document.createElement('button');
+        botaoSexta.id = 'btn-friday';
+        botaoSexta.innerText = 'Sexta-feira'
+        containerBotoes.appendChild(botaoSexta);
+    }
+}
+
+exercicio4('Sexta-feira');
+
+function exercicio5 () {
+    let diasSexta = document.getElementsByClassName('friday');
+    for (key = 0; key < diasSexta.length; key += 1) {
+        let diaAnterior = diasSexta[key].previousElementSibling.innerText;
+        let numeroDiaAnterior = 0;
+        numeroDiaAnterior = parseInt(diaAnterior, 10);
+
+        if (diasSexta[key].innerText !== 'Sextou') {
+            diasSexta[key].innerText = 'Sextou';
+        }
+        else {
+            diasSexta[key].innerText = numeroDiaAnterior + 1;
+        }
+    }
+}
+function botaoSextou () {
+    botaoExerc4 = document.querySelector('#btn-friday');
+    botaoExerc4.addEventListener ('click', exercicio5);
+}
+
+botaoSextou();
