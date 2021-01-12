@@ -47,7 +47,7 @@ exercicio2('Feriados');
 function exercicio3 () {
     
     let teste = document.querySelectorAll('.holiday');
-    for (let key in teste) {
+    for (key = 0; key < teste.length; key += 1) {
         if(teste[key].style.backgroundColor === 'green') {
             teste[key].style.backgroundColor = 'rgb(238,238,238)';
         }
@@ -98,3 +98,26 @@ function botaoSextou () {
 }
 
 botaoSextou();
+
+let dias = document.getElementsByClassName('day');
+
+function zoom (daysSend) {
+    if (daysSend.target.style.fontSize = '15px') {
+        daysSend.target.style.fontSize = '30px';
+    }
+    else {
+        daysSend.target.style.fontSize = '20px';
+    }
+}
+
+function exercicio6 () {
+    const daysUl = document.querySelector('#days');
+    daysUl.addEventListener('mouseover', function(event) {
+        event.target.style.fontSize = '35px';
+
+    })
+    daysUl.addEventListener('mouseout', function(event) {
+        event.target.style.fontSize = '20px';
+    })
+}
+exercicio6();
