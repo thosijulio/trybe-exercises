@@ -129,10 +129,16 @@ function exercicio7 () {
     let tarefa = caixaTarefa.value;
     let criarTarefa = document.createElement ('span');
     criarTarefa.innerText = caixaTarefa.value
-    criarTarefa.style.display = 'block';
     let pai = document.getElementsByClassName('my-tasks');
     pai[0].appendChild(criarTarefa);
-    
+
+    function color (cor) {
+        let exercicio8 = document.createElement('div');
+        exercicio8.className = 'task';
+        exercicio8.style.backgroundColor = cor;
+        pai[0].appendChild(exercicio8);
+    }
+    color ('green');
 }
 
 
