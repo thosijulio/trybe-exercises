@@ -121,3 +121,19 @@ function exercicio6 () {
     })
 }
 exercicio6();
+
+let botaoOk = document.querySelector('#btn-add');
+botaoOk.addEventListener ('click', exercicio7);
+function exercicio7 () {
+    let caixaTarefa = document.getElementById('task-input');
+    let tarefa = caixaTarefa.value;
+    let criarTarefa = document.createElement ('span');
+    criarTarefa.innerText = caixaTarefa.value
+    criarTarefa.style.display = 'block';
+    let pai = document.getElementsByClassName('my-tasks');
+    pai[0].appendChild(criarTarefa);
+    
+}
+
+
+
