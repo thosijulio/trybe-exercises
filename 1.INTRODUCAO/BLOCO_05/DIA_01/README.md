@@ -1,4 +1,4 @@
-## Dia 4.3: JavaScript - DOM e Seletores
+## Dia 5.1: JavaScript - DOM e Seletores
 
 ### &nbsp; Descrição dos Exercícios:
 
