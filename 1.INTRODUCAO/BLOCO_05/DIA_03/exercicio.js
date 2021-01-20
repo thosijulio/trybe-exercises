@@ -21,10 +21,10 @@ function exercicio1 () {
         dayArray.innerText = dezDaysList[key];
         dayArray.className = 'day';
         if (dayArray.innerText === '24' || dayArray.innerText === '25' || dayArray.innerText === '31') {
-            dayArray.className += ' holiday';
+            dayArray.classList.add ('holiday');
         }
         if (dayArray.innerText === '4' || dayArray.innerText === '11' || dayArray.innerText === '18' || dayArray.innerText === '25') {
-            dayArray.className += ' friday';
+            dayArray.classList.add ('friday');
         }
         daysUl.appendChild(dayArray);
 
@@ -112,18 +112,24 @@ function zoom (daysSend) {
 
 function exercicio6 () {
     const daysUl = document.querySelector('#days');
+    let colorDaySelected = document.getElementsByClassName ('selected');
+
     daysUl.addEventListener('mouseover', function(event) {
         event.target.style.fontSize = '35px';
-
     })
     daysUl.addEventListener('mouseout', function(event) {
         event.target.style.fontSize = '20px';
     })
+    daysUl.addEventListener('click', function(event) {
+        event.target.classList.toggle('colorTask');
+    })
 }
+
 exercicio6();
 
 let botaoOk = document.querySelector('#btn-add');
 botaoOk.addEventListener ('click', exercicio7);
+
 function exercicio7 () {
     let caixaTarefa = document.getElementById('task-input');
     let tarefa = caixaTarefa.value;
@@ -136,10 +142,29 @@ function exercicio7 () {
         let exercicio8 = document.createElement('div');
         exercicio8.className = 'task';
         exercicio8.style.backgroundColor = cor;
+        function addClass () {
+            exercicio8.classList.toggle ('selected');
+        }
+        exercicio8.addEventListener('click', addClass);
         pai[0].appendChild(exercicio8);
     }
-    color ('green');
+    color ('magenta');
 }
 
+function exercicio10 () {
+    let taskSelected = document.getElementsByClassName('task selected');
+    let dias = document.querySelector('#days');
+    let task = document.querySelector ('.task');
 
+    dias.addEventListener('click', function (event) {
+        let colorEventTarget = event.target.style.color;
+        if (taskSelected.length > 0 && colorEventTarget !== taskSelected[0].style.backgroundColor) {
+            event.target.style.color = taskSelected[0].style.backgroundColor;
+        }
+        else if (event.target.style.color === taskSelected[0].style.backgroundColor) {
+            event.target.style.color = 'rgb(119,119,119)';
+        }
+    })
 
+}
+exercicio10();
