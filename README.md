@@ -50,7 +50,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
+- [x] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Arte com Pixels](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.5-PIXELS-ART)_
 - [ ] 5-6: _[Projeto - Lista de taredas](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.6-TODO-LIST)_
