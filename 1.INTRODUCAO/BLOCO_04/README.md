@@ -15,6 +15,8 @@ Neste bloco, foi comentado sobre a história do javascript, de onde surgiu e qua
 9. comando for/in
 10. Utilização de funções para organizar e estruturar um código
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
