@@ -143,6 +143,7 @@ A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para a
 
 <b>Bonus:</b> que tal identificar as alíquotas com variáveis de nomes explicativos?
   
+---
 
 <h3 align=center>Me encontre:</h3>
 
