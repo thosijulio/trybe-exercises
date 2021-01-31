@@ -19,6 +19,8 @@ Neste bloco, foi ensinado os conceitos sobre Git e GitHub, seus principais coman
 13. Como funcionam os protocolos HTTP e HTTPS
 14. Quais os tipos de requisição podem ser feitos através desses protocolos
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
