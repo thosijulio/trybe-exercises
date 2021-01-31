@@ -28,6 +28,7 @@ Crie uma função que modifique todo o texto da tag `<p>` para maiúsculo. <br>
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Crie uma função que exiba o conteúdo de todas as tags `<p>` no console. <br>
 
+---
 
 <h3 align=center>Me encontre:</h3>
 
