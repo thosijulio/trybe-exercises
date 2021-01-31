@@ -68,6 +68,8 @@ Troque a cor de fundo do elemento pai da div criada no passo 3 (aquela que possu
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8. <br>
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
