@@ -95,6 +95,8 @@
 
   ### &nbsp;&nbsp; Exercicio 14 - [e14.sh](https://github.com/thosijulio/trybe-exercises/blob/exercises/1.3/1.INTRODUCAO/BLOCO_01/DIA_03/PARTE_02/e14.sh)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado:</b> Acessar o manual do comando ls.<br><br>
+  
+  ---
 
   <h3 align=center>Me encontre:</h3>
 
