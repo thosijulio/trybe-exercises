@@ -13,6 +13,8 @@ Neste bloco, foi ensinado conteúdos necessários para utilizarmos o sistema Lin
 7. Verificação de status e envio de sinais a processos UNIX
 8. Comandos básicos no bash
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
