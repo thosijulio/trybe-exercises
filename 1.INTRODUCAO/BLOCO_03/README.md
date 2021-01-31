@@ -17,6 +17,8 @@ Neste bloco, foi ensinado como estruturar páginas HTML estilizadas com CSS de f
 11. Criação de páginas semâticas válidas e acessíveis
 12. Diferença de elementos block e inline
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
