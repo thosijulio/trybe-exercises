@@ -20,7 +20,7 @@ Essas preferências devem ser salvas de forma que, ao retornar à página, as pr
 
 Crie um botão que reverta todas as alterações já realizadas.
  
-
+---
 
 <h3 align=center>Me encontre:</h3>
 
