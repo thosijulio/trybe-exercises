@@ -129,17 +129,6 @@ Crie uma função que receba um array de inteiros e retorne o índice do maior v
 Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 * Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .
 * Valor esperado no retorno da função: Fernanda .
-
-<b>Exercícios em desenvolvimento:</b>
-
-### &nbsp;&nbsp; Exercicio 05 - [e05.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.4/1.INTRODUCAO/BLOCO_04/DIA_04/PARTE-2/e05.js)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
-
-### &nbsp;&nbsp; Exercicio 06 - [e06.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.4/1.INTRODUCAO/BLOCO_04/DIA_04/PARTE-2/e06.js)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
-
-### &nbsp;&nbsp; Exercicio 07 - [e07.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.4/1.INTRODUCAO/BLOCO_04/DIA_04/PARTE-2/e07.js)
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
   
 ---  
   
