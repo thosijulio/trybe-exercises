@@ -141,8 +141,7 @@ Crie uma função que receba um array de nomes e retorne o nome com a maior quan
 ### &nbsp;&nbsp; Exercicio 07 - [e07.js](https://github.com/thosijulio/trybe-exercises/blob/exercises/4.4/1.INTRODUCAO/BLOCO_04/DIA_04/PARTE-2/e07.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
   
-  
-  
+---  
   
 <h3 align=center>Me encontre:</h3>
 
