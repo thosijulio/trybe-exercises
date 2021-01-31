@@ -9,6 +9,8 @@
 5. Introdução a Eventos JavaScript.
 6. Como salvar dados no browser do usuário: Introdução ao WebStorage.
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
