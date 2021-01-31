@@ -92,6 +92,8 @@ Agora você irá criar um novo array a partir do array numbers , sem perdê-lo. 
 [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
 ~~~
 
+---
+
 <h3 align=center>Me encontre:</h3>
 
 <p align=center>
