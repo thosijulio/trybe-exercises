@@ -9,21 +9,32 @@
 <body>
     <header class='speaker-form-header'>
         <h1>Dia 6.1 - Forms</h1>
-        <p><em>Quer Palestrar? Preencha esse formulário</em></p>
+        <p><em>Treinando Formulario</em></p>
     </header>
 
     <form action="/action_page.php">
         <fieldset>
-          <legend>Personalia:</legend>
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname"><br><br>
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname"><br><br>
+          <legend>Dados Pessoais:</legend>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="fname" required><br><br>
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="birthday">Birthday:</label>
-          <input type="date" id="birthday" name="birthday"><br><br>
-          <input type="submit" value="Submit">
+          <input type="email" id="email" name="email" maxlength="50" required><br><br>
+          <label for="cpf">CPF:</label>
+          <input type="text" id="cpf" name="cpf" maxlength="11" required><br><br>
+          <label for="adress">Endereço:</label>
+          <input type="text" id="adress" name="adress" required><br><br>
+          <label for="city">Cidade:</label>
+          <input type="text" id="city" name="city" maxlength="28" required><br><br>
+          <label for="state">Estado: </label>
+          <select name="state" id="state" required>
+          </select><br><br>
+          <p>Tipo:</p>
+          <label for="home">
+            <input name="typeHome" id="home" type="radio" value="home" required> Casa
+          </label>
+          <label for="apto">
+            <input name="typeHome" id="apto" type="radio" value="apto" required> Apartamento
+          </label><br>
         </fieldset>
       </form>
       

@@ -13,19 +13,19 @@ body {
 }
 
 fieldset {
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .speaker-form-header {
     background-color: white;
     position: fixed;
-    top: 20px;
-    left: 5%;
-    width: 90%;
+    top: 0;
+    width: 100%;
     text-align: center;
     border: 1px solid rgb(226, 226, 226);
     border-radius: 3px;
     padding: 20px;
+    height: 90px;
 }
 
 input {
