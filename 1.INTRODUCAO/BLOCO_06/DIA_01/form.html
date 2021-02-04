@@ -27,6 +27,7 @@
       <input type="text" id="city" name="city" maxlength="28" required><br><br>
       <label for="state">Estado: </label>
       <select name="state" id="state" required>
+        <option id="sp" name="state" value="sp">Sao Paulo</option>
       </select><br><br>
       <p>Tipo:</p>
       <label for="home">
@@ -36,8 +37,6 @@
         <input name="typeHome" id="apto" type="radio" value="apto" required> Apartamento
       </label><br><br>
     </fieldset>
-  </form>
-  <form>
     <fieldset id="lastJob">
       <legend>Dados do último emprego:</legend><br>
       <label for="curriculumResume"></label>Resumo do Currículo:<br>
@@ -45,8 +44,11 @@
       <label for="positionLJ">Cargo:</label><br>
       <input type="text" name="positionLJ" id="positionLJ" required maxlength="40"><br><br>
       <label for="positionD">Descricão do cargo:</label><br>
-      <textarea name="positionD" id="positionD" required>
-    </fieldset>
+      <textarea id="descriptionLJ" name="descriptionLJ" required maxlength="500"></textarea><br><br>
+      <label for="initialDay">Dia de início:</label>
+      <input type="text" id="initialDay" name="initialDay" required><br><br>
+    </fieldset><br><br>
+    <button  id="buttonForm">Enviar</button>
   </form>
   <script src="script.js">
   </script>
