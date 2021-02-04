@@ -38,3 +38,9 @@ textarea {
     min-height: 80px;
     max-height: 80px;
 }
+
+div {
+    border: 2px ridge rgb(185, 185, 185);
+    padding: 10px 0;
+    line-height: 30px;
+}
