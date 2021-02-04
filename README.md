@@ -58,4 +58,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 5-8: _[(Bônus)Projeto - Adivinhe a Cor](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-COLOR-GUESS)_
 - [ ] 5-8: _[(Bônus)Projeto - Carta Misteriosa](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-MISTERY-LETTER)_
 
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+
+- [x] 6-1: _HTML & CSS - Forms_
+
 # [...]
