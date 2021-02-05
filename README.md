@@ -61,5 +61,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
+- [ ] 6-2: _HTML & CSS - Bibliotecas JS e Frameworks CSS_
+- [ ] 6-3: _HTML & CSS - Flexbox - Parte 1_
+- [ ] 6-4: _HTML & CSS - Flexbox - Parte 2_
+- [ ] 6.5: _HTML & CSS - CSS Responsivo - Mobile First_
+- [ ] 6.6: _[Projeto - Página inicial do Facebook](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/6.6-FACEBOOK-SIGNUP)_
+
 
 # [...]
