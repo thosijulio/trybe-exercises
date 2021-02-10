@@ -104,6 +104,5 @@ function showForm () {
 
 
 criarEstados ();
-verificarData ();
 limparCampos ();
 showForm ();
