@@ -1,4 +1,4 @@
-## Dia 5.2: JavaScript - Trabalhando com Elementos
+## Dia 6.2: HTML e CSS - Bibliotecas JavaScript e Frameworks CSS
 
 ### &nbsp; Descrição dos Exercícios:
 
