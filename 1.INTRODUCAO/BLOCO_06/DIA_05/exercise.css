@@ -5,7 +5,7 @@ html {
     box-sizing: inherit;
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   body {
     background-color: aquamarine;
   }
@@ -54,5 +54,24 @@ html {
 
   footer {
     background-color: aquamarine;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 899px) {
+  body {
+    text-align: center;
+  }
+  header {
+    background-color: aquamarine;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: whitesmoke;
+  }
+  h1, h2, h3{
+    color: red;
+    text-align: center;
   }
 }
