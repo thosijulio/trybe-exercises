@@ -2,7 +2,7 @@
 
 ### &nbsp; Descrição do Exercício:
 
-### &nbsp; A partir do site proposto, contendo um trecho do livro "Alice no país das maravilhas", crie três versões diferentes para essa página. Cada layout deve corresponder a um tamanho diferente de página (pequeno, médio e grande).
+&nbsp; A partir do site proposto, contendo um trecho do livro "Alice no país das maravilhas", crie três versões diferentes para essa página. Cada layout deve corresponder a um tamanho diferente de página (pequeno, médio e grande).
 
 ---
 
