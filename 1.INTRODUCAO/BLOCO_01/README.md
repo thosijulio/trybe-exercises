@@ -24,5 +24,5 @@ Neste bloco, foi ensinado conteúdos necessários para utilizarmos o sistema Lin
  </p>
  
  <h1 align="center">
-    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe_logo.jpeg" />
+    <img width=600 height=150 alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe-logo.png"/>
 </h1>
