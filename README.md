@@ -1,7 +1,6 @@
 <h1 align="center">
-    <img alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe-logo.png" />
+    <img width=600 height=150 alt="Trybe" src="https://github.com/thosijulio/trybe-exercises/blob/main/trybe-logo.png" />
 </h1>
-
 
 <h1 align="center">Trybe - Exercícios</h1> 
 
