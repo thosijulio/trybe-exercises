@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-6: _[Projeto - Lista de taredas](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.6-TODO-LIST)_
 - [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.7-MEME-GENERATOR)_
 - [x] 5-8: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-COLOR-GUESS)_
-- [x] 5-8: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-MISTERY-LETTER)_
+- [x] 5-9: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.9-MISTERY-LETTER)_
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
