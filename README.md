@@ -18,18 +18,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: Unix, Bash e Shell Script
+##### Bloco 1: Unix, Bash e Shell Script ✔️
 
 - [x] 1-3: _Unix & Bash - Parte 1_
 - [x] 1-4: _Unix & Bash - Parte 2_
 
-##### Bloco 2: Git, GitHub e Internet
+##### Bloco 2: Git, GitHub e Internet ✔️
 
 - [x] 2-1: _Git & GitHub - O que é e para que serve?_
 - [x] 2-2: _Git & GitHub - Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução à HTML e CSS
+##### Bloco 3: Introdução à HTML e CSS ✔️
 
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - Lessons Learned](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/3.5-LESSONS-LEARNED)_
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação ✔️
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/4.5-PLAYGROUND-FUNCTIONS)_
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage ✔️
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
@@ -57,7 +57,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-8: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-COLOR-GUESS)_
 - [x] 5-9: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.9-MISTERY-LETTER)_
 
-##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :hourglass_flowing_sand:
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _HTML & CSS - Bibliotecas JS e Frameworks CSS_
