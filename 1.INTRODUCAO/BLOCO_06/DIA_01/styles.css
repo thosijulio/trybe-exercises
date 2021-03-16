@@ -1,0 +1,11 @@
+fieldset p {
+    display: inline-block;
+}
+
+fieldset {
+    margin: 10px 10px;
+}
+
+input {
+    margin: 15px 10px;
+}
