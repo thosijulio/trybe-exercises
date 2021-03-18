@@ -38,4 +38,63 @@ for(let key in estados) {
   tagSelect.appendChild(selectEstados);
 }
 }
+
+function ajustarData() {
+  let campoData = document.getElementById('dataInicio');
+  campoData.addEventListener('input', function(event) {
+    if(campoData.value.length == 2) {
+      if(campoData.value[1] !== '/') {
+        campoData.value += '/';
+      }
+    }
+    if(campoData.value.length == 5) {
+      if(campoData.value[4] !== '/') {
+        campoData.value += '/';
+      }
+    }
+  })
+}
+
+function verifyDate() {
+    let dataInserida = document.getElementById('dataInicio');
+    dataInserida.addEventListener('change', function() {
+      let verificaDia = parseInt((dataInserida.value[0] + dataInserida.value[1]));
+      let verificaMes = parseInt((dataInserida.value[3] + dataInserida.value[4]));
+      let verificaAno = parseInt((dataInserida.value[6] + dataInserida.value[7] + dataInserida.value[8] + dataInserida.value[9]));
+
+      if (verificaDia) {
+        if(verificaDia > 31 && verificaDia < 1) {
+          alert("Dia inválido!");
+          dataInserida.value = '';
+        }
+      }
+      else {
+        alert("Dia inválido!");
+        dataInserida.value = '';
+      }
+      if (verificaMes) {
+        if(verificaMes <= 0 && (verificaMes > 12)) {
+          alert("Mês inválido!");
+          dataInserida.value = '';
+        }
+      }
+      else {
+        alert('Mês inválido!');
+        dataInserida.value = '';
+      }
+      if (verificaAno) {
+        if(verificaAno.value <= 0) {
+          alert('Ano inválido');
+          dataInserida.value = '';
+        }
+      }
+      else {
+        alert('Ano inválido');
+        dataInserida.value = '';
+      }
+    })
+}
+
+verifyDate();
 createStates();
+ajustarData();

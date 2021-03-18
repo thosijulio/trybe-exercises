@@ -9,16 +9,16 @@
     <form>
       <fieldset>
         <label for="name">Nome:</label><br>
-        <input type="text" name="name" id="name" maxlenght=40 required><br>
+        <input type="text" name="name" id="name" maxlenght=40><br>
         <label for="Email">Email:</label><br>
-        <input type="text" name="email" id="email" maxlenght=50 required><br>
+        <input type="text" name="email" id="email" maxlenght=50><br>
         <label for="CPF">CPF:</label><br>
-        <input type="text" name="CPF" id="CPF" maxlenght=11 required><br>
+        <input type="text" name="CPF" id="CPF" maxlenght=11><br>
         <label for="address">Endereço:</label><br>
-        <input type="text" name="address" id="address" maxlenght=200 required><br>
+        <input type="text" name="address" id="address" maxlenght=200><br>
         <label for="city">Cidade:</label><br>
-        <input type="text" name="city" id="city" maxlenght=28 required><br>
-        <label for="state">Estado:</label>
+        <input type="text" name="city" id="city" maxlenght=28><br>
+        <label for="state">Estado:</label><br>
         <select name="state" id="state">
         </select><br>
         <p>Tipo:</p>
@@ -28,8 +28,16 @@
         <label for="apto">Apartamento</label>
       </fieldset>
       <fieldset>
-        
+        <label for="resumoCV">Resumo do currículo:</label><br>
+        <textarea name="resumoCV" id="resumoCV" maxlength="1000" style="resize: none; height: 200px; width: 200px;"></textarea><br>
+        <label for="cargo">Cargo:</label><br>
+        <input type="text" name="cargo" id="cargo" maxlength=40><br>
+        <label for="descricaoCargo">Descrição Cargo:</label><br>
+        <input type="text" name="descricaoCargp" id="descricaoCargo" maxlength="500"><br>
+        <label for="dataInicio">Data Início:</label><br>
+        <input type="text" name="dataInicio" id="dataInicio" maxlength="10" required>
       </fieldset>
+      <button type="submit" id="botao-enviar">Enviar</button>
     </form>
     <script src="script.js">
     </script>
