@@ -28,10 +28,14 @@ function createStates() {
     'SE': 'Sergipe',
     'TO': 'Tocantins'
 }
+
 let tagSelect = document.getElementById('state');
 let estadosLenght = Object.keys(estados).length;
 for(let key in estados) {
-  console.log(key);
+  let selectEstados = document.createElement('option');
+  selectEstados.value = key;
+  selectEstados.innerText = key + ' - ' + estados[key];
+  tagSelect.appendChild(selectEstados);
 }
 }
 createStates();
