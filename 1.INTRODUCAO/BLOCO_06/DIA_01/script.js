@@ -63,7 +63,7 @@ function verifyDate() {
       let verificaAno = parseInt((dataInserida.value[6] + dataInserida.value[7] + dataInserida.value[8] + dataInserida.value[9]));
 
       if (verificaDia) {
-        if(verificaDia > 31 && verificaDia < 1) {
+        if(verificaDia > 31 || verificaDia <= 0) {
           alert("Dia inválido!");
           dataInserida.value = '';
         }
@@ -73,7 +73,7 @@ function verifyDate() {
         dataInserida.value = '';
       }
       if (verificaMes) {
-        if(verificaMes <= 0 && (verificaMes > 12)) {
+        if(verificaMes <= 0 || (verificaMes > 12)) {
           alert("Mês inválido!");
           dataInserida.value = '';
         }
