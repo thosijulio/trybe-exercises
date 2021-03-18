@@ -95,6 +95,25 @@ function verifyDate() {
     })
 }
 
+function showContent() {
+  let buttonSubmit = document.getElementById('botao-enviar');
+  buttonSubmit.addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('1').innerText = 'Nome: ' + document.getElementById('name').value;
+    document.getElementById('2').innerText = 'Email: ' + document.getElementById('email').value;
+    document.getElementById('3').innerText = 'CPF: ' + document.getElementById('CPF').value;
+    document.getElementById('4').innerText = 'Endereço: ' + document.getElementById('address').value;
+    document.getElementById('5').innerText = 'Cidade: ' + document.getElementById('city').value;
+    document.getElementById('6').innerText = 'Estado: ' + document.getElementById('state').value;
+    document.getElementById('7').innerText = 'Tipo: ' + document.querySelector('input[name="residence-type"]:checked').value;
+    document.getElementById('8').innerText = 'Resumo do curriculo: ' + document.getElementById('resumoCV').value;
+    document.getElementById('9').innerText = 'Cargo: ' + document.getElementById('cargo').value;
+    document.getElementById('10').innerText = 'Descrição do cargo: ' + document.getElementById('descricaoCargo').value;
+    document.getElementById('11').innerText = 'Data de início: ' + document.getElementById('dataInicio').value;
+  })
+}
+
 verifyDate();
 createStates();
 ajustarData();
+showContent();
