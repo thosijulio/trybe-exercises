@@ -129,8 +129,7 @@ function eraseAll() {
   })
 }
 
-verifyDate();
+
 createStates();
-ajustarData();
 showContent();
 eraseAll();

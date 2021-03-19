@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>6.1 - Exercicios</title>
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="Bibliotecas/Estilo - Bulma/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="Bibliotecas/JS - DataPicker/dist/css/DatePickerX.min.css">
   </head>
   <body>
     <form>
@@ -22,10 +23,10 @@
         <label class="label" for="state">Estado:</label><br>
         <select class="select" name="state" id="state">
         </select><br>
-        <p id="type-home">Tipo:</p>
-        <input class="input" type="radio" name="residence-type" id="casa" value="Casa">
+        <p class="label" id="type-home">Tipo:</p>
+        <input class="radio" type="radio" name="residence-type" id="casa" value="Casa">
         <label class="label" for="casa">Casa</label>
-        <input class="input" type="radio" name="residence-type" id="apto" value="Apartamento">
+        <input class="radio" type="radio" name="residence-type" id="apto" value="Apartamento">
         <label class="label" for="apto">Apartamento</label>
       </fieldset>
       <fieldset class="field">
@@ -55,6 +56,8 @@
       <p id="11"></p>
     </div>
     <script src="script.js">
+    </script>
+    <script src="Bibliotecas/JS - DataPicker/dist/js/DatePickerX.min.js">
     </script>
   </body>
 </html>
