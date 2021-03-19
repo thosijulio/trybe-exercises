@@ -113,7 +113,23 @@ function showContent() {
   })
 }
 
+function eraseAll() {
+  let buttonErase = document.getElementById('eraseButton');
+  buttonErase.addEventListener('click', function() {
+    let div = document.getElementById('resumoDados').childNodes;
+    let inputs = document.getElementsByTagName('input');
+    for(index = 0; index < div.length; index += 1){
+      div[index].innerText = '';
+    }
+    for(index = 0; index < inputs.length; index += 1) {
+      inputs[index].value = '';
+    }
+    document.getElementsByTagName('textarea')[0].value = '';
+  })
+}
+
 verifyDate();
 createStates();
 ajustarData();
 showContent();
+eraseAll();
