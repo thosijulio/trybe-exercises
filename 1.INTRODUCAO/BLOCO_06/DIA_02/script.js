@@ -35,6 +35,7 @@ for(let key in estados) {
   let selectEstados = document.createElement('option');
   selectEstados.value = key;
   selectEstados.innerText = key + ' - ' + estados[key];
+  selectEstados.className = 'option';
   tagSelect.appendChild(selectEstados);
 }
 }
