@@ -21,3 +21,18 @@ arrayCrescente(oddsAndEvens);
 const descobrirFatorial = (numero) => numero > 1 ? numero * descobrirFatorial(numero - 1) : 1;
 
 console.log(descobrirFatorial(1));
+
+//exercicio 2
+const longestWord = (string) => {
+  var arrayStr = string.split(" ");
+  var maior = 0;
+  var palavra = null;
+  arrayStr.forEach((str) => {
+      if (maior < str.length) {
+          maior = str.length;
+          palavra = str;
+      }
+  });
+  return palavra;
+}
+console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
