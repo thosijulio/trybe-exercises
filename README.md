@@ -66,5 +66,33 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6.5: _HTML & CSS - CSS Responsivo - Mobile First_
 - [ ] 6.6: _[Projeto - Página inicial do Facebook](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/6.6-FACEBOOK-SIGNUP)_
 
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
+
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 7-2: _JavaScript ES6 - Objects_
+- [ ] 7-3: _JavaScript ES6 - Testes unitários em JavaScript
+- [ ] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/7.4-)_
+
+##### Bloco 8: High Order Functions do JavaScript ES6 :hourglass_flowing_sand:
+
+- [ ] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
+- [ ] 8-2: _JavaScript ES6 - High Order Functions - forEach, fund, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - High Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - High Order Functions - reduce
+- [ ] 8.5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [ ] 8.6: _[Projeto - Zoo Functions](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/8.6-ZOO-FUNCTIONS)_
+
+##### Bloco 9: JavaScript Assíncrono e Promises :hourglass_flowing_sand:
+
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks
+- [ ] 9-2: _JavaScript Promises
+- [ ] 9.3: _[Projeto - Carrinho de Compras](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/9.3-)_
+
+##### Bloco 10: Testes automatizados com Jest :hourglass_flowing_sand:
+
+- [ ] 10-1: _Primeiros passos no Jest_
+- [ ] 10-2: _Jest - Teste Assíncronos
+- [ ] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/10.4-)_
 
 # [...]
