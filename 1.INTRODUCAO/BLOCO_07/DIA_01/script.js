@@ -36,3 +36,31 @@ const longestWord = (string) => {
   return palavra;
 }
 console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
+
+//exercicio 3
+const botaoExercicio3 = document.getElementById('buttonExercicio3');
+const tagP = document.getElementById('resultado');
+let clickCount = 0;
+botaoExercicio3.addEventListener('click', () => {
+  clickCount += 1;
+  tagP.innerText = clickCount;
+})
+
+//exercicio 4
+const substituirX = (string) => `Tryber X aqui!`.replace('X', string);
+
+console.log(substituirX('Julio Thosi'));
+
+const habilidades = ['JavaScript', 'HTML', 'CSS', 'Windows', 'Linux'];
+
+const ultimoExercicio = (stringFuncao1) => `${stringFuncao1} Minhas cinco principais habilidade são:
+ . ${habilidades[0]};
+ . ${habilidades[1]};
+ . ${habilidades[2]};
+ . ${habilidades[3]};
+ . ${habilidades[4]};
+
+#goTrybe
+`
+
+console.log(ultimoExercicio(substituirX('Julio H. Thosi')));
