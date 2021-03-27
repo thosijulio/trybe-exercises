@@ -19,5 +19,7 @@ const lesson3 = {
 };
 
 const exercicio1 = (object, key, value) => object[key] = value;
-
 exercicio1(lesson2, 'turno', 'manhã');
+
+const exercicio2 = (object) => Object.keys(object);
+exercicio2(lesson1);
