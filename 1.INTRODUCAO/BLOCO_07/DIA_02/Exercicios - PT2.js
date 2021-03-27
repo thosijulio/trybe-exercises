@@ -55,3 +55,13 @@ const exercicio8 = (object, key, value) => {
   return false;
 }
 console.log(exercicio8(lesson3, 'materia', 'Maria Clara'));
+
+const exercicio1Bonus = (object) => {
+  let estudantes = 0;
+  for (let key in object) {
+    if(object[key].materia === 'Matemática') {
+      estudantes += object[key].numeroEstudantes;
+    }
+  }
+}
+console.log(exercicio1Bonus(allLessons));
