@@ -17,3 +17,7 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+const exercicio1 = (object, key, value) => object[key] = value;
+
+exercicio1(lesson2, 'turno', 'manhã');
