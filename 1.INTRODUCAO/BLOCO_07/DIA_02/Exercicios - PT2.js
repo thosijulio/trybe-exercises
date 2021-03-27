@@ -32,3 +32,12 @@ console.log(exercicio4(lesson1));
 
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 console.log(allLessons);
+
+const exercicio6 = (objectExercicio5) => {
+  let contador = 0;
+  for (let index in objectExercicio5) {
+    contador += objectExercicio5[index].numeroEstudantes;
+  }
+  return contador;
+}
+console.log(exercicio6(allLessons));
