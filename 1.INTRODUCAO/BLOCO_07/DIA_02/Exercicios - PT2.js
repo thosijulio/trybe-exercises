@@ -47,3 +47,11 @@ const exercicio7 = (object, position) => {
   return object[keysObject[position]];
 }
 console.log(exercicio7(lesson1,0));
+
+const exercicio8 = (object, key, value) => {
+  if(object && object[key] && object[key] === value) {
+    return true;
+  }
+  return false;
+}
+console.log(exercicio8(lesson3, 'materia', 'Maria Clara'));
