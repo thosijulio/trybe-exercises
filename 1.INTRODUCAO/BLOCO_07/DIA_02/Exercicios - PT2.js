@@ -22,4 +22,7 @@ const exercicio1 = (object, key, value) => object[key] = value;
 exercicio1(lesson2, 'turno', 'manhã');
 
 const exercicio2 = (object) => Object.keys(object);
-exercicio2(lesson1);
+console.log(exercicio2(lesson1));
+
+const exercicio3 = (object) => (Object.keys(object)).length;
+console.log(exercicio3(lesson3));
