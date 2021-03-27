@@ -41,3 +41,9 @@ const exercicio6 = (objectExercicio5) => {
   return contador;
 }
 console.log(exercicio6(allLessons));
+
+const exercicio7 = (object, position) => {
+  const keysObject = Object.keys(object);
+  return object[keysObject[position]];
+}
+console.log(exercicio7(lesson1,0));
