@@ -4,7 +4,7 @@ Deve ser possível chamar a HOF criada de forma encadeada (Ex: checarResposta('G
 */
 
 
-const correctAnswer = 'higher orderd function';
+const correctAnswer = 'higher order function';
 const userAnswer = 'HIGHER ORDER FUNCTION';
 
 const checkAnswer = (answer) => (rightAnswer) => answer.toLowerCase() === rightAnswer.toLowerCase() ? true : false;
