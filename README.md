@@ -64,7 +64,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6-3: _HTML & CSS - Flexbox - Parte 1_
 - [x] 6-4: _HTML & CSS - Flexbox - Parte 2_
 - [x] 6.5: _HTML & CSS - CSS Responsivo - Mobile First_
-- [ ] 6.6: _[Projeto - Página inicial do Facebook](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/6.6-FACEBOOK-SIGNUP)_
+- [x] 6.6: _[Projeto - Página inicial do Facebook](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/6.6-FACEBOOK-SIGNUP)_
 
 #### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
 
