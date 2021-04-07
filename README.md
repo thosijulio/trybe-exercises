@@ -57,7 +57,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-8: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.8-COLOR-GUESS)_
 - [x] 5-9: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/5.9-MISTERY-LETTER)_
 
-#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :hourglass_flowing_sand:
+#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo ✔️
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _HTML & CSS - Bibliotecas JS e Frameworks CSS_
@@ -66,7 +66,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6.5: _HTML & CSS - CSS Responsivo - Mobile First_
 - [x] 6.6: _[Projeto - Página inicial do Facebook](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/6.6-FACEBOOK-SIGNUP)_
 
-#### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
+#### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários ✔️
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
