@@ -71,12 +71,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _JavaScript ES6 - Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/7.4-JS-UNIT-TESTS)_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/7.4-)_
 
 #### Bloco 8: High Order Functions do JavaScript ES6 :hourglass_flowing_sand:
 
-- [ ] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
-- [ ] 8-2: _JavaScript ES6 - High Order Functions - forEach, find, some, every, sort_
+- [x] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
+- [ ] 8-2: _JavaScript ES6 - High Order Functions - forEach, fund, some, every, sort_
 - [ ] 8-3: _JavaScript ES6 - High Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - High Order Functions - reduce_
 - [ ] 8.5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
