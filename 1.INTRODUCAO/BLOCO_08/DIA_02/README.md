@@ -68,12 +68,6 @@ const books = [
     releaseYear: 1928,
   },
 ];
-
-function authorBornIn1947() {
-  // escreva aqui o seu código
-}
-
-assert.strictEqual(authorBornIn1947(), 'Stephen King');
   ~~~
 
 ### &nbsp;&nbsp; [Exercicio 1](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_02/exercicio1.js)
