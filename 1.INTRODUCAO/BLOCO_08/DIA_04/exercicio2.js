@@ -63,10 +63,14 @@ const books = [
 ];
 function allNames() {
   const autores = books.reduce((acc, curr) => {
-    acc.unshift(curr.author.name);
+    acc.push(curr.author.name);
     return acc;
   }, []);
   console.log(autores);
 }
 
 allNames();
+
+let teste  = ['Julio'];
+console.log(teste.push('Ingrid'));
+console.log(teste);
