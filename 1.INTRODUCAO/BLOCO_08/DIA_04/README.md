@@ -1,4 +1,4 @@
-# Dia 8.3: JavaScript ES6 - Higher Order Functions - reduce
+# Dia 8.4: JavaScript ES6 - Higher Order Functions - reduce
 
 ## &nbsp; Descrição dos Exercícios
   <b> Exercícios para praticam os conceitos de Higher Order Functions associados a outros já vistos, como arrow functions , template literals , objetos e temas dos fundamentos. Considere o array books para a resolução dos exercícios 2, 3 e 4:</b><br>
@@ -70,7 +70,7 @@ const books = [
 ];
   ~~~
 
-### &nbsp;&nbsp; [Exercicio 1](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio1.js)
+### &nbsp;&nbsp; [Exercicio 1](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio1.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Transformar uma matriz de matrizes em uma única matriz.
  
@@ -90,7 +90,7 @@ function flatten() {
 assert.deepStrictEqual(flatten(), ['1', '2', '3', true, 4, 5, 6]);
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 2](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio2.js)
+### &nbsp;&nbsp; [Exercicio 2](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio2.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Criar uma string com os nomes de todas as pessoas autoras.
 
@@ -102,7 +102,7 @@ function allNames() {
 assert.deepStrictEqual(allNames(), 'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.');
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 3](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio3.js)
+### &nbsp;&nbsp; [Exercicio 3](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio3.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
 Calcular a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
@@ -116,7 +116,7 @@ function averageAge() {
 assert.strictEqual(averageAge(), expectedResult);
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 4](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio4.js)
+### &nbsp;&nbsp; [Exercicio 4](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio4.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
 Encontrar o livro com o maior nome.
 
@@ -139,7 +139,7 @@ function longestNamedBook() {
 assert.deepStrictEqual(longestNamedBook(), expectedResult);
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 5](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio5.js)
+### &nbsp;&nbsp; [Exercicio 5](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio5.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
 Dado o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
@@ -159,7 +159,7 @@ function containsA() {
 assert.deepStrictEqual(containsA(), 20);
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 6](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio6.js)
+### &nbsp;&nbsp; [Exercicio 6](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio6.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
 Criar um array com o nome de todos os livros com mais de 60 anos de publicação.
   
@@ -177,7 +177,7 @@ function oldBooks() {
 assert.deepStrictEqual(oldBooks(), expectedResult);
 ~~~
 
-### &nbsp;&nbsp; [Exercicio 7](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_03/exercicio7.js)
+### &nbsp;&nbsp; [Exercicio 7](https://github.com/thosijulio/trybe-exercises/blob/main/1.INTRODUCAO/BLOCO_08/DIA_04/exercicio7.js)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
 Criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. A posição 0 de notas refere-se ao aluno na posição 0 de alunos.
 
