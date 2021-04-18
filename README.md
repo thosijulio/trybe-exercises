@@ -80,11 +80,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 8-3: _JavaScript ES6 - High Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - High Order Functions - reduce_
 - [x] 8.5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [ ] 8.6: _[Projeto - Zoo Functions](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/8.6-ZOO-FUNCTIONS)_
+- [x] 8.6: _[Projeto - Zoo Functions](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/8.6-ZOO-FUNCTIONS)_
 
 #### Bloco 9: JavaScript Assíncrono e Promises :hourglass_flowing_sand:
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
 - [ ] 9.3: _[Projeto - Carrinho de Compras](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/9.3-)_
 
