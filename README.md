@@ -73,7 +73,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 7-3: _JavaScript ES6 - Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/7.4-)_
 
-#### Bloco 8: High Order Functions do JavaScript ES6 :hourglass_flowing_sand:
+#### Bloco 8: High Order Functions do JavaScript ES6 ✔️
 
 - [x] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
 - [x] 8-2: _JavaScript ES6 - High Order Functions - forEach, fund, some, every, sort_
