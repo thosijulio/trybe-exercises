@@ -12,4 +12,7 @@ describe('Testes do Exercício 3', () => {
     myRemoveWithoutCopy(arr, 5);
     expect(arr).not.toEqual([5, 6, 7, 8]);
   });
+  test('O retorno de "myRemoveWithoutCopy([1, 2, 3, 4], 5)" retorna [1, 2, 3, 4]', () => {
+    expect(myRemoveWithoutCopy([1, 2, 3, 4], 5)).toEqual([1, 2, 3, 4]);
+  });
 });
