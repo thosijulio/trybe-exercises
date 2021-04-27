@@ -8,6 +8,9 @@ describe('Testes do Exercício 1', () => {
     expect(sum(0, 0)).toEqual(0);
   });
   test('3. Sum deve lançar erro quando passado string por parâmetro', () => {
-    expect(() => sum(4, '5')).toThrowError('parameters must be numbers');
+    expect(() => sum(4, '5')).toThrow();
+  });
+  test('4. A mensagem de erro é "parameters must be numbers" quando chamar por sum(4, "5")', () => {
+    expect(() => sum(4, '5')).toThrowError(new Error('parameters must be numbers'));
   });
 });
