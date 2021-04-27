@@ -12,4 +12,7 @@ describe('Testes do Exercício 2', () => {
     myRemove(arr, 6);
     expect(arr).toEqual([5, 6, 7, 8]);
   });
+  test('4. O retorno de "myRemove([1, 2, 3, 4], 5)" retorna "[1, 2, 3, 4"', () => {
+    expect(myRemove([1, 2, 3, 4], 5)).toEqual([1, 2, 3, 4]);
+  });
 });
