@@ -6,5 +6,8 @@ describe('Testes do Exercício 1', () => {
   });
   test('2. O retorno de sum(0, 0) é igual a 0', () => {
     expect(sum(0, 0)).toEqual(0);
-  })
+  });
+  test('3. Sum deve lançar erro quando passado string por parâmetro', () => {
+    expect(() => sum(4, '5')).toThrowError('parameters must be numbers');
+  });
 });
