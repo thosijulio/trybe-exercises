@@ -8,8 +8,4 @@ function myFizzBuzz(num) {
   return num;
 }
 
-assert.strictEqual(myFizzBuzz(15), 'fizzbuzz');
-assert.strictEqual(myFizzBuzz(6), 'fizz');
-assert.strictEqual(myFizzBuzz(5), 'buzz');
-assert.strictEqual(myFizzBuzz(4), 4);
-assert.strictEqual(myFizzBuzz('teste'), false);
+module.exports = myFizzBuzz;
