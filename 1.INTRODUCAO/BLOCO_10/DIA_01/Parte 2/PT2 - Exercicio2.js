@@ -1,15 +1,13 @@
-function techList(arrTech) {
-  if (arrTech.length > 0) {
-    const technologies = [];
-    arrTech.sort();
-    arrTech.forEach((tech) => {
-      technologies.push({ tech, name: 'Julio H. Thosi' });
-    });
-    return technologies;
-  }
-  return 'Vazio!';
-} 
+function techList(arrTech, name) {
+  if (!(arrTech.length > 0)) return 'Vazio!';
 
-console.log(techList(['teste', 'teste2']));
+  const technologies = arrTech
+  .sort()
+  .map((tech) => ({
+    tech, 
+    name,
+  }));
+  return technologies;
+}
 
 module.exports = techList;
