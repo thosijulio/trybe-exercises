@@ -86,11 +86,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [ ] 9.3: _[Projeto - Carrinho de Compras](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/9.3-)_
+- [x] 9.3: _[Projeto - Carrinho de Compras](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/9.3-SHOPPING-CART)_
 
 #### Bloco 10: Testes automatizados com Jest :hourglass_flowing_sand:
 
-- [ ] 10-1: _Primeiros passos no Jest_
+- [x] 10-1: _Primeiros passos no Jest_
 - [ ] 10-2: _Jest - Teste Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/10.4-)_
