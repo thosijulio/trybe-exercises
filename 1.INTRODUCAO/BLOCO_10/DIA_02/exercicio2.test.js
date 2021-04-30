@@ -5,7 +5,7 @@ describe('Testes do exercicio 2 - Promise', () => {
     it('Retorna o nome do usuario', () => {
       expect.assertions(1);
       expect(getUserName(4)).resolves.toBe('Mark');
-    })
+    });
   });
   describe('Quando o id passado não existir', () => {
     it('Retorna erro', () => {
