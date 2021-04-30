@@ -1,4 +1,4 @@
-const {findUserById, getUserName} = require('./exercicio2.js');
+const {findUserById, getUserName} = require('./exercicio2e3.js');
 
 describe('Testes do exercicio 2 - Promise', () => {
   describe('Quando o id passado por parametro existir', () => {
