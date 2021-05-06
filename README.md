@@ -93,6 +93,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Teste Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/10.4-)_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/10.4-JEST)_
 
 # [...]
