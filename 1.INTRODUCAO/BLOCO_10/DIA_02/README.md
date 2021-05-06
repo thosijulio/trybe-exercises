@@ -1,5 +1,4 @@
-# Dia 10.2: Testes assíncronos com Jest
-
+# Dia 10.2: Jest - Testes Assíncronos
 ## &nbsp; Descrição dos Exercícios - Parte 1
 
 ### &nbsp;&nbsp; Exercicio 1
