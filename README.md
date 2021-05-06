@@ -16,7 +16,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web ✔️
 
 #### Bloco 1: Unix, Bash e Shell Script ✔️
 
@@ -88,11 +88,214 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 9-2: _JavaScript Promises_
 - [x] 9.3: _[Projeto - Carrinho de Compras](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/9.3-SHOPPING-CART)_
 
-#### Bloco 10: Testes automatizados com Jest :hourglass_flowing_sand:
+#### Bloco 10: Testes automatizados com Jest ✔️
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Teste Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/thosijulio/trybe-projects/blob/main/1.INTRODUCAO/10.4-JEST)_
 
-# [...]
+---
+
+## Desenvolvimento Front-End ⏳
+
+
+#### Bloco 11: Introdução à React ⏳
+
+- [ ] 11-1: _Introdução Front-end/React - 'Hello, world!' no React_
+- [ ] 11-2: _Componentes React_
+- [ ] 11-3: _[Projeto - Movie Cards Library](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/11.3-)_
+
+#### Bloco 12: Componentes com Estado, Eventos e Formulários com React ⏳
+
+- [ ] 12-1: _Componentes com Estado e Eventos_
+- [ ] 12-2: _Formulários no React_
+- [ ] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/12.3-)_
+
+#### Bloco 13: Ciclo de Vida de Componentes e React Router ⏳
+
+- [ ] 13-1: _Ciclo de Vida de Componentes_
+- [ ] 13-2: _React Router_
+- [ ] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/13.3-)_
+
+#### Bloco 14: Metodologias Ágeis ⏳
+
+- [ ] 14-1: _Metodologias Ágeis_
+- [ ] 14-2: _[Projeto - Front-end Online Store](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/14.2-)_
+
+#### Bloco 15: Testes automatizados com React Testing Library ⏳
+
+- [ ] 15-1: _RTL - Primeiros Passos_
+- [ ] 15-2: _RTL - Mocks e Inputs_
+- [ ] 15-3: _RTL - Testando React Router_
+- [ ] 15-4: _[Projeto - Testes em React](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/15.4-)_
+
+#### Bloco 16: Gerenciamento de Estado com Redux ⏳
+
+- [ ] 16-1: _Introdução ao Redux - O Estado Global da Aplicação_
+- [ ] 16-2: _Usando Redux no React_
+- [ ] 16-3: _Usando o Redux no React - Prática_
+- [ ] 16-4: _Usando o Redux no React - Actions Assíncronas_
+- [ ] 16-5: _Testes em React-Redux_
+- [ ] 16-6: _[Projeto - Trybe Waller](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/16.6-)_
+
+#### Bloco 17: Projeto Jogo de Trivia ⏳
+
+- [ ] 17-1: _[Projeto - Jogo de Trivia](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/17.1-)_
+
+#### Bloco 18: Context API e Reack Hooks ⏳
+
+- [ ] 18-1: _Context API do React_
+- [ ] 18-2: _React Hooks - useState e useContext_
+- [ ] 18-3: _React Hooks - useEffect e Hooks Customizados_
+- [ ] 18-4: _[Projeto - Star Wars Datatable com Context API e Hooks](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/18.4-)_
+
+#### Bloco 19: Projeto App de Receitas ⏳
+
+- [ ] 19-1: _[Projeto - App de Receitas](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/19.1-)_
+
+---
+
+## Desenvolvimento Back-End ⏳
+
+
+#### Bloco 20: Introdução à SQL ⏳
+
+- [ ] 20-1: _Introdução Back-End/Banco de Dados Relacionais - Banco de Dados SQL_
+- [ ] 20-2: _Encontrando dados em um Banco de Dados_
+- [ ] 20-3: _Filtrando dados de forma específica_
+- [ ] 20-4: _Manipulando tabelas_
+- [ ] 20-5: _[Projeto - All For One](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/20.4-)_
+
+#### Bloco 21: Funções SQL, Joins e Subqueries ⏳
+
+- [ ] 21-1: _Funções mais usadas no SQL_
+- [ ] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
+- [ ] 21-3: _Stored Routines & Stored Functions_
+- [ ] 21-4: _[Projeto - Vocabulary Booster](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/21.4-)_
+
+#### Bloco 22: Normalização e Modelagem de Banco de Dados ⏳
+
+- [ ] 22-1: _Transformando ideias em um modelo de Banco de Dados_
+- [ ] 22-2: _Normalização, Formas Normais e Dumps_
+- [ ] 22-3: _Transformando ideias em um modelo de Banco de Dados - Parte 2_
+- [ ] 22-4: _[Projeto - One For All](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/22.4-)_
+
+#### Bloco 23: Introdução ao MongoDB ⏳
+
+- [ ] 23-1: _Introdução - NoSQL/MongoDB_
+- [ ] 23-2: _Filter Operators_
+- [ ] 23-3: _[Projeto - Data Flights](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/23.3-)_
+
+#### Bloco 24: MongoDB: Updates Simples e Complexos ⏳
+
+- [ ] 24-1: _Updates Simples_
+- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [ ] 24-4: _[Projeto - Commerce](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/24.4-)_
+
+#### Bloco 25: MongoDB: Aggregation Framework ⏳
+
+- [ ] 25-1: _Aggregation Framework - Parte 1_
+- [ ] 25-2: _Aggregation Framework - Parte 2_
+- [ ] 25-3: _[Projeto - Aggregations](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/25.3-)_
+
+#### Bloco 26: Introdução ao desenvolvimento Web com NodeJS ⏳
+
+- [ ] 26-1: _Node.js - Introdução / Intro - NodeJS_
+- [ ] 26-2: _Node.js - Fluxo Assíncrono_
+- [ ] 26-3: _NodeJS - Arquitetura_
+- [ ] 26-4: _Express: HTTP com Node.js_
+- [ ] 26-5: _Praticando Express_
+- [ ] 26-6: _[Projeto - Crush Manager](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/26.6-)_
+
+#### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful ⏳
+
+- [ ] 27-1: _Introdução - Arquitetura de Software / Arquitetura de Software - Camada de Model_
+- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 27-3: _Arquitetura web - Rest e RESTful_
+- [ ] 27-4: _[Projeto - Store Manager](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/27.4-)_
+
+#### Bloco 28: Autenticação e Upload de Arquivos ⏳
+
+- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 28-2: _NodeJS - Upload de arquivos com \`multer\`_
+- [ ] 28-3: _[Projeto - Cookmaster](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/28.3-)_
+
+#### Bloco 29: Deployment ⏳
+
+- [ ] 29-1: _Introdução - Deploy / Infraestrutura - Deploy com Heroku_
+- [ ] 29-2: _Deploy - Gerenciadores de Processo_
+- [ ] 29-3: _[Projeto - Stranger Things](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/10.4-JEST)_
+
+#### Bloco 30: Projeto Trybeer ⏳
+
+- [ ] 30-1: _[Projeto - Trybeer](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/30.1-)_
+
+#### Bloco 31: Arquitetura: SOLID e ORM ⏳
+
+- [ ] 31-1: _Arquitetura - Princípios SOLID_
+- [ ] 31-2: _ORM - Interface da aplicação com o banco de Dados_
+- [ ] 31-3: _ORM - Associations_
+- [ ] 31-4: _Boas práticas na escrita de testes_
+- [ ] 31-5: _[Projeto - API de Blogs](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/31.5-)_
+
+#### Bloco 32: Sockets ⏳
+
+- [ ] 32-1: _Arquitetura de Software - Camada de View_
+- [ ] 32-2: _Sockets - TCP/UDP & NET_
+- [ ] 32-3: _Sockets - Socket.io_
+- [ ] 32-4: _[Projeto - WebChat](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/32.4-)_
+
+#### Bloco 33: Projeto Trybeer II ⏳
+
+- [ ] 33-1: _[Projeto - Trybeer II](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/33.1-)_
+
+---
+
+## Desenvolvimento Back-End ⏳
+
+
+#### Bloco 34: Arquitetura de Computadores e Redes ⏳
+
+- [ ] 34-1: _Introdução - Ciência da Computação / Arquitetura de Computadores_
+- [ ] 34-2: _Arquitetura de redes_
+- [ ] 34-3: _Redes de computadores, ferramentas e segurança_
+- [ ] 34-4: _[Projeto - Explorando os protocolos](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/34.4-)_
+
+#### Bloco 35: Introdução à Python e Raspagem de Dados da Web ⏳
+
+- [ ] 35-1: _Aprendendo Python_
+- [ ] 35-2: _Entrada e Saída de Dados_
+- [ ] 35-3: _Raspagem de Dados_
+- [ ] 35-4: _Testes_
+- [ ] 35-5: _[Projeto - Tech News](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/35.5-)_
+
+#### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto ⏳
+
+- [ ] 36-1: _Introdução à programação orientada a objetos_
+- [ ] 36-2: _Programação orientada a objetos na prática_
+- [ ] 36-3: _Padrões de projeto_
+- [ ] 36-4: _[Projeto - Relatórios de Estoque](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/36.4-)_
+
+#### Bloco 37: Algoritmos e Estrutura de Dados ⏳
+
+- [ ] 37-1: _Estrutura de Dados I - Arrays_
+- [ ] 37-2: _Estrutura de Dados I - Complexidade de Algoritmos_
+- [ ] 37-3: _Recursividade e Estratégias para solução de problemas_
+- [ ] 37-4: _Algoritmos de ordenação e busca_
+- [ ] 37-5: _[Projeto - Algoritmos](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/37.5-)_
+
+#### Bloco 38: Estrutura de Dados: Hash e Set ⏳
+
+- [ ] 38-1: _Estrutura de dados II - Hash maps & Dict_
+- [ ] 38-2: _Estrutura de dados II - Set_
+- [ ] 38-3: _[Projeto - Restaurant Orders](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/38.3-)_
+
+#### Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas ⏳
+
+- [ ] 39-1: _Estrutura de Dados III - Pilhas_
+- [ ] 39-2: _Estrutura de Dados III - Deque_
+- [ ] 39-3: _Estrutura de Dados III - Nó & Listas ligadas_
+- [ ] 39-4: _Estrutura de Dados III - Listas duplamente ligadas_
+- [ ] 39-5: _[Projeto - TING: Trybe Is Not Google](https://github.com/thosijulio/trybe-projects/blob/main/4.COMPUTER-SCIENCE/39.5-)_
