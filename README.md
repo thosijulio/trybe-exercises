@@ -100,7 +100,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ## Desenvolvimento Front-End ⏳
 
 
-#### Bloco 11: Introdução à React ⏳
+#### Bloco 11: Introdução à React ✔️
 
 - [x] 11-1: _Introdução Front-end / Introdução React / 'Hello, world!' no React_
 - [x] 11-2: _Componentes React_
