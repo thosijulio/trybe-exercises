@@ -1,6 +1,6 @@
-# Dia 10.2: Testes assíncronos com Jest
+# Dia 11.1: Introdução Front-end / Introdução React / 'Hello, world!' no React
 
-## &nbsp; Descrição dos Exercícios - Parte 1
+## &nbsp; Descrição dos Exercícios
 
 ### &nbsp;&nbsp; Exercicio 1
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
@@ -22,89 +22,6 @@ const task = (value) => {
  * Chamar a função dentro do componente App (usando a sintaxe JSX); 
  * Inserir um valor qualquer, salvar a página e iniciar rodando o comando npm start .
  * Criar uma array de compromissos para que cada item do array apareça, como um item de lista, no seu componente App (função map).
-
-### &nbsp;&nbsp; Exercicio 3
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
-Reescrever o teste do exercício anterior, desta vez utilizando a sintaxe de async/await.
- * Utilizar o try/catch para o caso de erro.
-
-### &nbsp;&nbsp; Exercicio 4
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
-O código abaixo busca no GitHub de um usuário, de acordo com a URL, seus repositórios, e retorna uma lista como resultado. Dada a URL 'https://api.github.com/orgs/tryber/repos' , fazer um teste que verifique que os repositórios 'sd-01-week4-5-project-todo-list' e 'sd-01-week4-5-project-meme-generator' se encontram nessa lista.
-
-~~~javascript
-const fetch = require('node-fetch');
-
-const getRepos = (url) => {
-  return fetch(url)
-    .then(response => response.json())
-    .then((data) => {
-      return data.map((repo) => repo.name);
-    });
-};
-~~~
-
-### &nbsp;&nbsp; Exercicio 5
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
-Responder qual será a saída desse código (sem executar).
-
-~~~javascript 
-beforeEach(() => console.log('1 - beforeEach'));
-afterEach(() => console.log('1 - afterEach'));
-
-test('', () => console.log('1 - test'));
-
-describe('Scoped / Nested block', () => {
-  beforeEach(() => console.log('2 - beforeEach'));
-  afterEach(() => console.log('2 - afterEach'));
-
-  test('', () => console.log('2 - test'));
-});
-~~~
-
-### &nbsp;&nbsp; Exercicio 6
-  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
- 1. Adicionar uma funcionalidade para buscar pelo nome do animal - crie uma função que deverá passar nos testes.
- 2. Adicionar uma nova funcionalidade para buscar pela idade dos animais. O retorno deve ser um array de objetos, mas, caso não ache nenhum, retorne uma mensagem de erro. Escrever a função e o teste.
-
-Código base para realizar o exercício:
-
-~~~javascript
-const Animals = [
-  { name: 'Dorminhoco', age: 1, type: 'Dog' },
-  { name: 'Soneca', age: 2, type: 'Dog' },
-  { name: 'Preguiça', age: 5, type: 'Cat' },
-];
-
-const findAnimalByName = (name) => (
-  // Adicione o código aqui.
-);
-
-const getAnimal = (name) => {
-  // Adicione o código aqui.
-};
-// ---------------------
-
-describe('Testando promise - findAnimalByName', () => {
-  describe('Quando existe o animal com o nome procurado', () => {
-    test('Retorne o objeto do animal', () => {
-      expect.assertions(1);
-      return getAnimal('Dorminhoco').then(animal => {
-        expect(animal).toEqual({ name: 'Dorminhoco', age: 1, type: 'Dog' });
-      });
-    });
-  });
-
-  describe('Quando não existe o animal com o nome procurado', () => {
-    test('Retorna um erro', () => {
-      expect.assertions(1);
-      return getAnimal('Bob').catch(error =>
-        expect(error).toEqual('Nenhum animal com esse nome!')
-      );
-    });
-  });
-});
-~~~
 
 ---
 
