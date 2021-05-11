@@ -102,7 +102,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 11: Introdução à React ⏳
 
-- [ ] 11-1: _Introdução Front-end/React - 'Hello, world!' no React_
+- [ ] 11-1: _Introdução Front-end / Introdução React / 'Hello, world!' no React_
 - [ ] 11-2: _Componentes React_
 - [ ] 11-3: _[Projeto - Movie Cards Library](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/11.3-)_
 
@@ -161,7 +161,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 20: Introdução à SQL ⏳
 
-- [ ] 20-1: _Introdução Back-End/Banco de Dados Relacionais - Banco de Dados SQL_
+- [ ] 20-1: _Introdução Back-End / Banco de Dados Relacionais - Banco de Dados SQL_
 - [ ] 20-2: _Encontrando dados em um Banco de Dados_
 - [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
@@ -183,7 +183,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 23: Introdução ao MongoDB ⏳
 
-- [ ] 23-1: _Introdução - NoSQL/MongoDB_
+- [ ] 23-1: _Introdução - NoSQL e MongoDB_
 - [ ] 23-2: _Filter Operators_
 - [ ] 23-3: _[Projeto - Data Flights](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/23.3-)_
 
