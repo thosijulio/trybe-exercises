@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# Dia 10.2: Testes assíncronos com Jest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## &nbsp; Descrição dos Exercícios - Parte 1
 
-## Available Scripts
+### &nbsp;&nbsp; Exercicio 1
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
+Criar um novo projeto utilizando em React (npx create-react-app nome-app) e acessar a pasta nome-app.
 
-In the project directory, you can run:
+### &nbsp;&nbsp; Exercicio 2
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
+Criar uma lista de tarefas simples seguindo os passos abaixo:
 
-### `npm start`
+~~~javascript
+const task = (value) => {
+  return (
+    <li>{value}</li>
+  );
+}
+~~~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ * inserir a função `task` acima do seu App;
+ * Chamar a função dentro do componente App (usando a sintaxe JSX); 
+ * Inserir um valor qualquer, salvar a página e iniciar rodando o comando npm start .
+ * Criar uma array de compromissos para que cada item do array apareça, como um item de lista, no seu componente App (função map).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### &nbsp;&nbsp; Exercicio 3
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
+Reescrever o teste do exercício anterior, desta vez utilizando a sintaxe de async/await.
+ * Utilizar o try/catch para o caso de erro.
 
-### `npm test`
+### &nbsp;&nbsp; Exercicio 4
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
+O código abaixo busca no GitHub de um usuário, de acordo com a URL, seus repositórios, e retorna uma lista como resultado. Dada a URL 'https://api.github.com/orgs/tryber/repos' , fazer um teste que verifique que os repositórios 'sd-01-week4-5-project-todo-list' e 'sd-01-week4-5-project-meme-generator' se encontram nessa lista.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+~~~javascript
+const fetch = require('node-fetch');
 
-### `npm run build`
+const getRepos = (url) => {
+  return fetch(url)
+    .then(response => response.json())
+    .then((data) => {
+      return data.map((repo) => repo.name);
+    });
+};
+~~~
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### &nbsp;&nbsp; Exercicio 5
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
+Responder qual será a saída desse código (sem executar).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+~~~javascript 
+beforeEach(() => console.log('1 - beforeEach'));
+afterEach(() => console.log('1 - afterEach'));
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+test('', () => console.log('1 - test'));
 
-### `npm run eject`
+describe('Scoped / Nested block', () => {
+  beforeEach(() => console.log('2 - beforeEach'));
+  afterEach(() => console.log('2 - afterEach'));
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  test('', () => console.log('2 - test'));
+});
+~~~
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### &nbsp;&nbsp; Exercicio 6
+  <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
+ 1. Adicionar uma funcionalidade para buscar pelo nome do animal - crie uma função que deverá passar nos testes.
+ 2. Adicionar uma nova funcionalidade para buscar pela idade dos animais. O retorno deve ser um array de objetos, mas, caso não ache nenhum, retorne uma mensagem de erro. Escrever a função e o teste.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Código base para realizar o exercício:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+~~~javascript
+const Animals = [
+  { name: 'Dorminhoco', age: 1, type: 'Dog' },
+  { name: 'Soneca', age: 2, type: 'Dog' },
+  { name: 'Preguiça', age: 5, type: 'Cat' },
+];
 
-## Learn More
+const findAnimalByName = (name) => (
+  // Adicione o código aqui.
+);
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+const getAnimal = (name) => {
+  // Adicione o código aqui.
+};
+// ---------------------
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+describe('Testando promise - findAnimalByName', () => {
+  describe('Quando existe o animal com o nome procurado', () => {
+    test('Retorne o objeto do animal', () => {
+      expect.assertions(1);
+      return getAnimal('Dorminhoco').then(animal => {
+        expect(animal).toEqual({ name: 'Dorminhoco', age: 1, type: 'Dog' });
+      });
+    });
+  });
 
-### Code Splitting
+  describe('Quando não existe o animal com o nome procurado', () => {
+    test('Retorna um erro', () => {
+      expect.assertions(1);
+      return getAnimal('Bob').catch(error =>
+        expect(error).toEqual('Nenhum animal com esse nome!')
+      );
+    });
+  });
+});
+~~~
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1 align="center">
+    <img alt="Trybe" src="https://github.com/thosijulio/trybe-projects/blob/main/trybe-logo.png"/>
+</h1>
+<h3 align=center>Me encontre:</h3>
+<p align=center>
+<a href="https://www.linkedin.com/in/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.github.com/thosijulio/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="thosijulio" height="20" width="20" /></a>
+<a href="https://www.instagram.com/thosijulio" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thosijulio" height="20" width="20" /></a>
+</p>
