@@ -8,14 +8,14 @@ class App extends React.Component {
     super();
     this.changeList = this.changeList.bind(this);
     this.state = {
-      pokemons,
+      pokemons: pokemons,
     }
   }
 
   changeList(type) {
-    this.setState((oldState, _props) => ({
-      pokemons: pokemons.filter((pokemon) => pokemon.type === type),
-    }));
+    this.setState({
+      pokemons: pokemons.filter((pokemon) => type === 'All' ? true : pokemon.type === type),
+    });
   }
 
   render() {
@@ -25,6 +25,7 @@ class App extends React.Component {
         <Pokedex pokemons={this.state.pokemons} />
         <button onClick={ () => (this.changeList('Fire')) } type="button">Fire</button>
         <button onClick={ () => (this.changeList('Psychic')) } type="button">Psychic</button>
+        <button onClick={ () => (this.changeList('All')) } type="button">All</button>
       </div>
     );
   }
