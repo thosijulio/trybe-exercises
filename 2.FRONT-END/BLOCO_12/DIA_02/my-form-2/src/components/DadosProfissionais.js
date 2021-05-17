@@ -2,7 +2,7 @@ import React from 'react';
 
 class DadosProfissionais extends React.Component {
   render() {
-    const { handleClick } = this.props;
+    const { handleClick, value } = this.props;
 
     return (
       <fieldset>
@@ -12,7 +12,8 @@ class DadosProfissionais extends React.Component {
             name="resumo"
             maxLength="1000"
             required
-            onChange={handleClick}
+            onChange={ handleClick }
+            value={ value.resumo }
           />
           Informações:
             <input
@@ -20,13 +21,15 @@ class DadosProfissionais extends React.Component {
               name="infos"
               maxLength="40"
               required
-              onChange={handleClick}
+              onChange={ handleClick }
+              value={ value.infos }
             />
           Descrição do cargo:
           <textarea
             name="descricaoCargo"
             maxLength="500"
             onChange={handleClick}
+            value={ value.descricaoCargo }
           />
       </fieldset>  
     )

@@ -6,10 +6,10 @@ import Pokedex from './Pokedex';
 class App extends React.Component {
   constructor() {
     super();
-    this.changeList = this.changeList.bind(this);
     this.state = {
       pokemons: pokemons,
     }
+    this.changeList = this.changeList.bind(this);
   }
 
   changeList(type) {
