@@ -1,4 +1,5 @@
 import React from 'react';
+import './ApiRequisition.css';
 
 class ApiRequisitions extends React.Component {
   constructor() {
@@ -7,10 +8,27 @@ class ApiRequisitions extends React.Component {
       data: '',
     };
     this.renderImgDog = this.renderImgDog.bind(this);
+    this.handleInput = this.handleInput.bind(this);
+    this.saveDog = this.saveDog.bind(this);
   }
 
-  componentDidMount() {
-    this.renderImgDog();
+  async componentDidMount() {
+    await this.renderImgDog();
+    const { data } = this.state;
+    const typeDog = data.message.split('/')[4];
+    alert(typeDog);
+  }
+
+  handleInput(event) {
+    this.setState({
+      apelido: event.target.value,
+    });
+  }
+
+  saveDog() {
+    localStorage.clear();
+    const { data } = this.state;
+    localStorage.setItem(this.state.apelido, data.message);
   }
 
   renderImgDog() {
@@ -21,7 +39,7 @@ class ApiRequisitions extends React.Component {
           this.setState({
             data: result,
           });
-        }
+        } else alert('Raça não permitida');
       });
   }
 
@@ -32,6 +50,8 @@ class ApiRequisitions extends React.Component {
         { data !== '' ? <img src={ data.message } alt="random dog" /> : <p>Loading...</p>}
         <section>
           <button type="button" onClick={ this.renderImgDog }>Nova imagem</button>
+          <input type="text" onChange={ this.handleInput } />
+          <button type="button" onClick={ this.saveDog }>Salvar infos</button>
         </section>
       </div>
     );
