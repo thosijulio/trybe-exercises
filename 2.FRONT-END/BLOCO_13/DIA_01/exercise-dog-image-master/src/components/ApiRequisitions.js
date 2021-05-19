@@ -10,6 +10,7 @@ class ApiRequisitions extends React.Component {
     this.renderImgDog = this.renderImgDog.bind(this);
     this.handleInput = this.handleInput.bind(this);
     this.saveDog = this.saveDog.bind(this);
+    this.showDog = this.showDog.bind(this);
   }
 
   async componentDidMount() {
@@ -23,6 +24,16 @@ class ApiRequisitions extends React.Component {
     this.setState({
       apelido: event.target.value,
     });
+  }
+
+  showDog() {
+    const { data } = this.state;
+
+    if (localStorage.length > 0) {
+      return (
+        <img src={ Object.values(localStorage)[0] } alt="random dog" />
+      );
+    } return data !== '' ? <img src={ data.message } alt="random dog" /> : <p>Loading...</p>;
   }
 
   saveDog() {
@@ -44,10 +55,9 @@ class ApiRequisitions extends React.Component {
   }
 
   render() {
-    const { data } = this.state;
     return (
       <div>
-        { data !== '' ? <img src={ data.message } alt="random dog" /> : <p>Loading...</p>}
+        { this.showDog }
         <section>
           <button type="button" onClick={ this.renderImgDog }>Nova imagem</button>
           <input type="text" onChange={ this.handleInput } />
