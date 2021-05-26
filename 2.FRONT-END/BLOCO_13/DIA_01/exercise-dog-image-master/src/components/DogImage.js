@@ -14,7 +14,10 @@ class DogImage extends React.Component {
   }
 
   componentDidMount() {
-    this.fetchDogApi();
+    if (localStorage.getItem('savedDog')) {
+      const savedDog = JSON.parse(localStorage.getItem('savedDog'));
+      this.setState({ imageSource: savedDog.imageSource })
+    } else this.fetchDogApi();
   }
 
   saveDogName(event) {
