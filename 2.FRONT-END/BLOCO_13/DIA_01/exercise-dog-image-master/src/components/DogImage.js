@@ -6,12 +6,24 @@ class DogImage extends React.Component {
     super();
     this.state = {
       imageSource: '',
+      dogName: '',
     };
     this.fetchDogApi = this.fetchDogApi.bind(this);
+    this.saveDogName = this.saveDogName.bind(this);
+    this.saveDog = this.saveDog.bind(this);
   }
 
   componentDidMount() {
     this.fetchDogApi();
+  }
+
+  saveDogName(event) {
+    const { value } = event.target;
+    this.setState({ dogName: value });
+  }
+
+  saveDog() {
+    localStorage.setItem('savedDog', JSON.stringify(this.state));
   }
 
   fetchDogApi() {
@@ -21,7 +33,6 @@ class DogImage extends React.Component {
         const dogBreed = result.message.split('/')[4];
         if (!result.message.includes('terrier')) {
           this.setState({ imageSource: result.message });
-          localStorage.setItem('lastImage', result.message);
           alert(dogBreed);
         } else alert(`Raça ${dogBreed} não permitida :(`);
       });
@@ -34,6 +45,13 @@ class DogImage extends React.Component {
         { imageSource === '' ? <p>Loading...</p> : <img src={ imageSource } alt="dog" /> }
         <br />
         <button type="button" onClick={ this.fetchDogApi }>Novo Cachorro</button>
+        <br />
+        <input
+          type="text"
+          onChange={ this.saveDogName }
+          placeholder="Digite um nome para o cachorro"
+        />
+        <button type="button" onClick={ this.saveDog }>Salvar Cachorro</button>
       </>
     );
   }
