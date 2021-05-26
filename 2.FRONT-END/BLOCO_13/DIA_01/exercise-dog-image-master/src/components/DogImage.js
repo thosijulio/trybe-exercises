@@ -23,7 +23,11 @@ class DogImage extends React.Component {
   render() {
     const { imageSource } = this.state;
     return (
-      imageSource === '' ? <p>Loading...</p> : <img src={ imageSource } alt="dog" />
+      <>
+        { imageSource === '' ? <p>Loading...</p> : <img src={ imageSource } alt="dog" /> }
+        <br />
+        <button type="button" onClick={ this.fetchDogApi }>Novo Cachorro</button>
+      </>
     );
   }
 }
