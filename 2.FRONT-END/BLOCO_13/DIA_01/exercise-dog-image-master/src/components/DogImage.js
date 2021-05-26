@@ -17,7 +17,14 @@ class DogImage extends React.Component {
   fetchDogApi() {
     fetch('https://dog.ceo/api/breeds/image/random')
       .then((response) => response.json())
-      .then((result) => this.setState({ imageSource: result.message }));
+      .then((result) => {
+        const dogBreed = result.message.split('/')[4];
+        if (!result.message.includes('terrier')) {
+          this.setState({ imageSource: result.message });
+          localStorage.setItem('lastImage', result.message);
+          alert(dogBreed);
+        } else alert(`Raça ${dogBreed} não permitida :(`);
+      });
   }
 
   render() {
