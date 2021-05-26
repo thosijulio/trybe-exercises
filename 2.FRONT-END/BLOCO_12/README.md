@@ -1,13 +1,6 @@
 # Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 ## Resumo do conteúdo ensinado:
-Ler o estado de um componente e usá-lo para alterar o que exibimos no browser;
-Inicializar um componente, dando a ele um estado pré-definido;
-Atualizar o estado de um componente.
-Capturar eventos utilizando a sintaxe do React
-Criar formulários utilizando sintaxe JSX com as tags : input , textarea , select , form .
-Transmitir informações de componentes filhos para componentes pais via callbacks .
-
 1. Ler estado de um componente e usá-lo para alterar o que é renderizado no browser;
 2. Inicialização de um componente com um estado pré-definido;
 3. Atualizar estado de componente
