@@ -1,5 +1,6 @@
 import React from 'react';
 import pokemons from './data';
+import Pokemon from './Pokemon';
 import './pokemonDetails.css';
 
 class PokemonDetails extends React.Component {
@@ -9,6 +10,7 @@ class PokemonDetails extends React.Component {
     const { summary, foundAt } = pokemon;
     return (
       <>
+        <Pokemon pokemon={ pokemon }/>
         <h2>Summary</h2>
         <p>{ summary }</p>
         <h2>{`Game Locations of ${pokemon.name}`}</h2>
