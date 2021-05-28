@@ -115,7 +115,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 #### Bloco 13: Ciclo de Vida de Componentes e React Router ⏳
 
 - [x] 13-1: _Ciclo de Vida de Componentes_
-- [ ] 13-2: _React Router_
+- [x] 13-2: _React Router_
 - [ ] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/13.3-)_
 
 #### Bloco 14: Metodologias Ágeis ⏳
