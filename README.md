@@ -118,7 +118,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 13-2: _React Router_
 - [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/13.3-MOVIE-CARD-LIBRARY-CRUD)_
 
-#### Bloco 14: Metodologias Ágeis ⏳
+#### Bloco 14: Metodologias Ágeis ✔️
 
 - [x] 14-1: _Metodologias Ágeis_
 - [x] 14-2: _Projeto - Front-end Online Store_ - (Projeto em Grupo)
