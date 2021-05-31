@@ -110,13 +110,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 12-1: _Componentes com Estado e Eventos_
 - [x] 12-2: _Formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/12.3-)_
+- [ ] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/12.3-MOVIE-CARD-LIBRARY-STATEFUL)_
 
 #### Bloco 13: Ciclo de Vida de Componentes e React Router ⏳
 
 - [x] 13-1: _Ciclo de Vida de Componentes_
 - [x] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/13.3-)_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/13.3-MOVIE-CARD-LIBRARY-CRUD)_
 
 #### Bloco 14: Metodologias Ágeis ⏳
 
