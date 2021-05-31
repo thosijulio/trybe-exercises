@@ -120,8 +120,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 14: Metodologias Ágeis ⏳
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Front-end Online Store](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/14.2-)_
+- [x] 14-1: _Metodologias Ágeis_
+- [x] 14-2: _Projeto - Front-end Online Store_ - (Projeto em Grupo)
 
 #### Bloco 15: Testes automatizados com React Testing Library ⏳
 
