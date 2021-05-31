@@ -5,6 +5,7 @@
 2. O que é Kanban ;
 3. O que é Scrum ;
 4. Trabalho em equipes utilizando Kanban ou Scrum de maneira eficaz.
+5. Trabalho em equipes utilizando GitHub de maneira eficaz.
 
 ---
 
