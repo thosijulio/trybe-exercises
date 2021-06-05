@@ -9,7 +9,7 @@ Implementar os testes:
  - Necessário um botão para adicionar a tarefa.
  - Botão precisa conter o texto "Adicionar".
  - Ao ser clicado a tarefa digitada pelo o usuário precisa ser salva.
- - 
+
 ---
 
 <h1 align="center">
