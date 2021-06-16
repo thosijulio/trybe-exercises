@@ -1,4 +1,4 @@
-import { PILL_TAKEN } from '../actions';
+import { PILL_TAKEN } from '../actions/index';
 
 const INITIAL_STATE = {
   id: '',

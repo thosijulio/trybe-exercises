@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { understandMatrix } from '../actions';
+import { understandMatrix } from '../actions/index';
 import bluepill from '../imgs/blue-pill.png';
 import redpill from '../imgs/red-pill.png';
 import abstract from '../data';
