@@ -61,7 +61,7 @@ Adicionar no componente `App` uma rota que mapeie o caminho de URL "/strict-acce
 Exercício para incrementar a Pokedex criada nos dias anteriores, utilizando Router. O gif abaixo simula o comportamento esperado da aplicação:
 
 <p align="center">
-  <img src="./DIA_02/pokedex-react-router-example.gif">
+  <img src="./pokedex-react-router-example.gif">
 </p>
 
 ### &nbsp;&nbsp; Exercicio 1
