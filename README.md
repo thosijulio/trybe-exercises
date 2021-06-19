@@ -125,14 +125,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 15: Testes automatizados com React Testing Library ⏳
 
-- [ ] 15-1: _RTL - Primeiros Passos_
-- [ ] 15-2: _RTL - Mocks e Inputs_
-- [ ] 15-3: _RTL - Testando React Router_
-- [ ] 15-4: _[Projeto - Testes em React](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/15.4-)_
+- [x] 15-1: _RTL - Primeiros Passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-3: _RTL - Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/15.4-)_
 
 #### Bloco 16: Gerenciamento de Estado com Redux ⏳
 
-- [ ] 16-1: _Introdução ao Redux - O Estado Global da Aplicação_
+- [x] 16-1: _Introdução ao Redux - O Estado Global da Aplicação_
 - [ ] 16-2: _Usando Redux no React_
 - [ ] 16-3: _Usando o Redux no React - Prática_
 - [ ] 16-4: _Usando o Redux no React - Actions Assíncronas_
