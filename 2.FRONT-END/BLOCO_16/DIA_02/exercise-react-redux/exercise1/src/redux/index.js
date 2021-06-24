@@ -3,7 +3,7 @@ import { CHANGE_SIGNAL } from './actionCreators';
 
 const initialState = {
   signal: {
-    color: 'red',
+    color: 'yellow',
   },
 }
 
