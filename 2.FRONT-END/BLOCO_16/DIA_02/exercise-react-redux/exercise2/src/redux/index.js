@@ -3,7 +3,7 @@ import { MOVE_CAR } from './actionCreators';
 
 const initialState = {
   cars: {
-    red: false,
+    red: 'left',
     blue: false,
     yellow: false,
   },
