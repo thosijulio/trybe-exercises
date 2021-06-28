@@ -1,4 +1,4 @@
-# Bloco 15: Bloco 15: Testes automatizados com React Testing Library
+# Bloco 15: Testes automatizados com React Testing Library
 
 ## Resumo do conteúdo ensinado:
 1. Utilização de seletores (queries) da React-Testing-Library em testes automatizados;
