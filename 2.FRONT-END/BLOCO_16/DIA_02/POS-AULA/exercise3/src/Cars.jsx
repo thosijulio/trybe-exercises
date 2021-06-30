@@ -1,7 +1,9 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import carBlue from './images/carBlue.jpeg';
 import carRed from './images/carRed.jpeg';
 import carYellow from './images/carYellow.jpeg';
+import { moveCar } from './redux/actionCreators';
 
 class Cars extends React.Component {
   render() {
@@ -25,4 +27,14 @@ class Cars extends React.Component {
   }
 }
 
-export default Cars;
+const mapStateToProps = (state) => ({
+  redCar: state.cars.red,
+  blueCar: state.cars.blue,
+  yellowCar: state.cars.yellow,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  moveCar: (car, side) => dispatch(moveCar(car, side)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Cars);
