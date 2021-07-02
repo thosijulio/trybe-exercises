@@ -8,6 +8,7 @@ import { changeSignal } from './redux/actionCreators';
 class TrafficSignal extends React.Component {
 
   renderSignal = (signalColor) => {
+    console.log(signalColor)
     if (signalColor === 'red') {
       return redSignal;
     }
@@ -22,14 +23,14 @@ class TrafficSignal extends React.Component {
 
   render() {
 
-    const { signalColor, changeSignal } = this.props;
+    const { signalColor, changeSignals } = this.props;
 
     return (
       <div>
         <div className="button-container">
-          <button type="button" onClick={ () => changeSignal('red') }>Red</button>
-          <button type="button" onClick={ () => changeSignal('yellow') }>Yellow</button>
-          <button type="button" onClick={ () => changeSignal('green') }>Green</button>
+          <button type="button" onClick={ () => changeSignals('red') }>Red</button>
+          <button type="button" onClick={ () => changeSignals('yellow') }>Yellow</button>
+          <button type="button" onClick={ () => changeSignals('green') }>Green</button>
         </div>
         <img className="signal" src={this.renderSignal(signalColor)} alt="" />
       </div>
@@ -42,7 +43,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  changeSignal: (color) => dispatch(changeSignal(color)),
+  changeSignals: (color) => dispatch(changeSignal(color)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(TrafficSignal);

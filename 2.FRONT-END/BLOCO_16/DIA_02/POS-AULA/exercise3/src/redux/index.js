@@ -16,10 +16,8 @@ const carsReducer = (state = INITIAL_CARS_STATE, action) => {
   case MOVE_CAR:
     return {
       ...state,
-      cars: {
-        ...state.cars,
-        [action.car]: action.side,
-    }}
+      [action.car]: action.side,
+    }
   default:
     return state;
   };
@@ -29,10 +27,7 @@ const signalReducer = (state = INITIAL_TRAFFIC_STATE, action) => {
   switch (action.type) {
   case CHANGE_SIGNAL:
     return {
-      ...state,
-      traffic: {
         color: action.payload,
-      }
     }
   default:
     return state;
