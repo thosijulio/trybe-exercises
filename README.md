@@ -123,12 +123,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 14-1: _Metodologias Ágeis_
 - [x] 14-2: _Projeto - Front-end Online Store_ - (Projeto em Grupo)
 
-#### Bloco 15: Testes automatizados com React Testing Library ⏳
+#### Bloco 15: Testes automatizados com React Testing Library ✔️
 
 - [x] 15-1: _RTL - Primeiros Passos_
 - [x] 15-2: _RTL - Mocks e Inputs_
 - [x] 15-3: _RTL - Testando React Router_
-- [x] 15-4: _[Projeto - Testes em React](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/15.4-)_
+- [x] 15-4: _[Projeto - Testes em React](https://github.com/thosijulio/trybe-projects/tree/main/2.FRONT-END/15.4-REACT-TESTING-LIBRARY)_
 
 #### Bloco 16: Gerenciamento de Estado com Redux ⏳
 
