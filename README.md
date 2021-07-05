@@ -106,7 +106,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 11-2: _Componentes React_
 - [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/11.3-MOVIE-CARDS-LIBRARY)_
 
-#### Bloco 12: Componentes com Estado, Eventos e Formulários com React ⏳
+#### Bloco 12: Componentes com Estado, Eventos e Formulários com React ✔️
 
 - [x] 12-1: _Componentes com Estado e Eventos_
 - [x] 12-2: _Formulários no React_
