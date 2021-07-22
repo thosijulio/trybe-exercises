@@ -1,9 +1,10 @@
 import React from 'react';
-// importe o connect do 'react-redux';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 class CharacterInfo extends React.Component {
   render() {
-    //faça a desestruturação das props aqui
+    const { character, error, loading } = this.props;
 
     if (!loading && character) {
       return (
@@ -21,9 +22,33 @@ class CharacterInfo extends React.Component {
   }
 };
 
-//mapeie o estado global para a propriedade da sua aplicação
+const mapStateToProps = ({ characterReducer: { character, error, loading } }) => ({
+  character,
+  error,
+  loading,
+})
 
+export default connect(mapStateToProps, null)(CharacterInfo);
 
-// conecte este componente ao redux aqui
-
-//faça as propTypes
+CharacterInfo.propTypes = {
+  character: PropTypes.shape({
+    url: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    gender: PropTypes.string.isRequired,
+    culture: PropTypes.string.isRequired,
+    born: PropTypes.string.isRequired,
+    died: PropTypes.string.isRequired,
+    titles: PropTypes.arrayOf(PropTypes.string.isRequired),
+    aliases: PropTypes.arrayOf(PropTypes.string.isRequired),
+    father: PropTypes.string.isRequired,
+    mother: PropTypes.string.isRequired,
+    spouse: PropTypes.string.isRequired,
+    allegiances: PropTypes.arrayOf(PropTypes.string.isRequired),
+    books: PropTypes.arrayOf(PropTypes.string.isRequired),
+    povBooks: PropTypes.arrayOf(PropTypes.string.isRequired),
+    tvSeries: PropTypes.arrayOf(PropTypes.string.isRequired),
+    playedBy: PropTypes.arrayOf(PropTypes.string.isRequired),
+  }).isRequired,
+  error: PropTypes.string.isRequired,
+  loading: PropTypes.bool.isRequired,
+}

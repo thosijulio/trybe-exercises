@@ -3,6 +3,8 @@ import React from 'react';
 import propTypes from 'prop-types';
 // importe a ação oriunda do thunk
 import './SearchForm.css';
+import requestAPIAction from '../actions/requestAPIAction';
+import { connect } from 'react-redux';
 
 class SearchForm extends React.Component {
   constructor(props) {
@@ -25,14 +27,13 @@ handleChange(e) {
 submitName(e) {
   e.preventDefault();
   const { inputText } = this.state;
-  //desestruture a ação do thunk como propriedade aqui
+  const { searchCharacter } = this.props;
 
   this.setState({
     inputText: '',
     characterSearched: inputText,
   })
-  // insira a action a ser despachada para o thunk
-
+  searchCharacter(inputText);
 }
 
 render() {
@@ -54,10 +55,12 @@ render() {
 }
 };
 
-// mapeie as ações despachadas como propriedade do componente
+const mapDispatchToProps = (dispatch) => ({
+  searchCharacter: (name) => dispatch(requestAPIAction(name)),
+})
 
+export default connect(null, mapDispatchToProps)(SearchForm);
 
-// conecte as ações despachadas ao redux
-
-//faça as proptypes da ação oriunda do thunk
-
+SearchForm.propTypes = {
+  searchCharacter: propTypes.func.isRequired,
+}
