@@ -135,13 +135,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 16-1: _Introdução ao Redux - O Estado Global da Aplicação_
 - [x] 16-2: _Usando Redux no React_
 - [x] 16-3: _Usando o Redux no React - Prática_
-- [ ] 16-4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 16-4: _Usando o Redux no React - Actions Assíncronas_
 - [ ] 16-5: _Testes em React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Waller](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/16.6-)_
+- [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/thosijulio/trybe-projects/tree/main/2.FRONT-END/16.6-TRYBE-WALLET)_
 
 #### Bloco 17: Projeto Jogo de Trivia ⏳
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/17.1-)_
+- [x] 17-1: _Projeto - Jogo de Trivia_ - (Projeto em Grupo)
 
 #### Bloco 18: Context API e Reack Hooks ⏳
 
