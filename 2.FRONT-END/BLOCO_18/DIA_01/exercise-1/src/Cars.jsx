@@ -11,55 +11,53 @@ import Context from './context';
 
 class Cars extends React.Component {
   render() {
+    const { blueCar, redCar, yellowCar, handleChange } = this.context;
     return (
-      <Context.Consumer>
-        { (value) => (
-            <div>
-              <div>
-                <img
-                  className={value.redCar ? 'car-right' : 'car-left'}
-                  src={carRed}
-                  alt="red car"
-                />
-                <button
-                  onClick={() => value.handleChange('redCar')}
-                  type="button"
-                >
-                  Move
-                </button>
-              </div>
-              <div>
-                <img
-                  className={value.blueCar ? 'car-right' : 'car-left'}
-                  src={carBlue}
-                  alt="blue car"
-                />
-                <button
-                  onClick={() => value.handleChange('blueCar')}
-                  type="button"
-                >
-                  Move
-                </button>
-              </div>
-              <div>
-                <img
-                  className={value.yellowCar ? 'car-right' : 'car-left'}
-                  src={carYellow}
-                  alt="yellow car"
-                />
-                <button
-                  onClick={() => value.handleChange('yellowCar')}
-                  type="button"
-                >
-                  Move
-                </button>
-              </div>
-            </div>
-        )}
-      </Context.Consumer>
-    );
-  }
+      <div>
+        <div>
+          <img
+            className={redCar ? 'car-right' : 'car-left'}
+            src={carRed}
+            alt="red car"
+          />
+          <button
+            onClick={() => handleChange('redCar')}
+            type="button"
+          >
+            Move
+          </button>
+        </div>
+        <div>
+          <img
+            className={blueCar ? 'car-right' : 'car-left'}
+            src={carBlue}
+            alt="blue car"
+          />
+          <button
+            onClick={() => handleChange('blueCar')}
+            type="button"
+          >
+            Move
+          </button>
+        </div>
+        <div>
+          <img
+            className={yellowCar ? 'car-right' : 'car-left'}
+            src={carYellow}
+            alt="yellow car"
+          />
+          <button
+            onClick={() => handleChange('yellowCar')}
+            type="button"
+          >
+            Move
+          </button>
+        </div>
+      </div>
+  )}
 }
+
+Cars.contextType = Context;
 
 Cars.propTypes = {
   moveCar: PropTypes.func.isRequired,

@@ -10,12 +10,20 @@ class App extends React.Component {
       blueCar: false,
       yellowCar: false,
       redCar: false,
-      handleChange: (car) => this.setState((oldState) => ({ ...oldState, [car]: !oldState[car] })) 
     }
+    this.handleChange = this.handleChange.bind(this);
   }
+  
+  handleChange(car) {
+    this.setState((oldState) => ({
+      ...oldState,
+      [car]: !oldState[car],
+    }));
+  }
+
   render() {
     return (
-      <Context.Provider value={this.state}>
+      <Context.Provider value={{ ...this.state, handleChange: this.handleChange}}>
         <Cars />
       </Context.Provider>
     );
