@@ -139,7 +139,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 16-5: _Testes em React-Redux_
 - [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/thosijulio/trybe-projects/tree/main/2.FRONT-END/16.6-TRYBE-WALLET)_
 
-#### Bloco 17: Projeto Jogo de Trivia ⏳
+#### Bloco 17: Projeto Jogo de Trivia ✔️
 
 - [x] 17-1: _Projeto - Jogo de Trivia_ - (Projeto em Grupo)
 
