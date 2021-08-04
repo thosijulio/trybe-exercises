@@ -2,14 +2,14 @@
 
 ## &nbsp; Descrição dos Exercícios
 
-### &nbsp;&nbsp; [Exercicio 1](./DIA_01/exercise-1)
+### &nbsp;&nbsp; [Exercicio 1](./exercise-1)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Refatorar o exercício 2 do dia 16.2, substituindo o Redux pela Context API para gerenciar o estado da aplicação.
 Nesse exercício temos três carros com as cores Red, Blue e Yellow. Cada um deles apresenta um botão que ao ser clicado passa um estado para o Context com um booleano.
 Esse estado irá ser utilizado para alterar o CSS com a imagem do carro, para que ele se mova ou não.
 OBS: Nesse exercício toda a estrutura já estava pronta, foi necessário apenas refatorar para utilizar a Context API.
 
-### &nbsp;&nbsp; [Exercicio 2](./DIA_01/exercise-2)
+### &nbsp;&nbsp; [Exercicio 2](./exercise-2)
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br> 
 Refatorar o exercício 3 do dia 16.2, substituindo o Redux pela Context API para gerenciar o estado da aplicação.
 Nesse exercício, além de utilizarmos o código dos carros do exercício anterior, temos um semáforo. Cada cor delee apresenta um botão que ao ser clicado passa um estado para o Context com a cor selecionada.
