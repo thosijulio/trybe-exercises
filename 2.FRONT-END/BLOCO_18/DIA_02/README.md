@@ -1,4 +1,4 @@
-# Dia 18.1: React Hooks - useState e useContext
+# Dia 18.2: React Hooks - useState e useContext
 
 ## &nbsp; Descrição dos Exercícios
 
