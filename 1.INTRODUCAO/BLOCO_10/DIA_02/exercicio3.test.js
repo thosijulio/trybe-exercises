@@ -1,18 +1,16 @@
-const {findUserById, getUserName} = require('./exercicio2e3.js');
+const getUserName = require('./exercicio2');
 
-describe('Testes do exercicio 3 - async/await', () => {
-  describe('Quando o id passado por parametro existir', () => {
-    it('Retorna o nome do usuario', async () => {
-      expect.assertions(1);
-      const name = await getUserName(4);
-      expect(name).toEqual('Mark');
-    });
+describe('Testes do exercicio 3', () => {
+  it('a funcao retorna um usuario quando é chamada com um id existente', () => {
+    expect.assertions(1);
+    return getUserName(1).then((name) => {
+      expect(name).toBe('Mark');
+    })
   });
-  
-  describe('Quando o id passado não existir', () => {
-    it('Retorna erro', async () => {
-      expect.assertions(1);
-      await expect(getUserName(3)).rejects.toEqual({ error: 'User with 3 not found.'});
-    });
+  it('a funcao retorna um erro quando é chamada com um id inexistente', () => {
+    expect.assertions(1);
+    return getUserName(3).catch((error) => {
+      expect(error.message).toMatch('User with 3 not found')
+    })
   });
-}); 
+});
