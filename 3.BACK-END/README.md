@@ -1,4 +1,4 @@
-# Módulo 2: Desenvolvimento Front-End
+# Módulo 3: Desenvolvimento Back-End
 
 Neste módulo, foi ensinado as técnicas e ferramentas mais atuais para desenvolver um código de back-end que seja rápido, bonito e testável.
 
