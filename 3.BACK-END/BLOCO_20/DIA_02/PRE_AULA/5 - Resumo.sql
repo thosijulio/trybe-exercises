@@ -5,3 +5,7 @@ SELECT * FROM sakila.film;
 
 -- Exercício 2
 SELECT title, release_year, rating FROM sakila.film;
+
+-- Exercício 3
+
+SELECT COUNT(*) FROM sakila.film;
