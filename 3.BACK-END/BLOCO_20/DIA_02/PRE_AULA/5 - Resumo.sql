@@ -27,3 +27,4 @@ SELECT * FROM sakila.language WHERE name!='English';
 
 -- Exercício 5
 SELECT * FROM sakila.film;
+SELECT title, release_year, length, rating, replacement_cost FROM sakila.film ORDER BY length DESC, replacement_cost LIMIT 20;
