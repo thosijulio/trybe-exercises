@@ -14,4 +14,7 @@ SELECT COUNT(*) FROM sakila.film;
 -- Parte 2
 
 -- Exercício 1
+SELECT DISTINCT(last_name) FROM sakila.actor;
+
+-- Exercício 2
 SELECT COUNT(DISTINCT(last_name)) FROM sakila.actor;
