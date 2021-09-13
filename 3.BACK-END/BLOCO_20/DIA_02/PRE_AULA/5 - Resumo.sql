@@ -18,3 +18,6 @@ SELECT DISTINCT(last_name) FROM sakila.actor;
 
 -- Exercício 2
 SELECT COUNT(DISTINCT(last_name)) FROM sakila.actor;
+
+-- Exercício 3
+SELECT * FROM sakila.actor ORDER BY last_name DESC, first_name;
