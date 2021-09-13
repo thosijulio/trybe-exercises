@@ -21,3 +21,6 @@ SELECT COUNT(DISTINCT(last_name)) FROM sakila.actor;
 
 -- Exercício 3
 SELECT * FROM sakila.actor ORDER BY last_name DESC, first_name;
+
+-- Exercício 4
+SELECT * FROM sakila.language WHERE name!='English';
