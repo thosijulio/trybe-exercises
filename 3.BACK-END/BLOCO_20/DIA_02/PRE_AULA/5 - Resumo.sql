@@ -24,3 +24,6 @@ SELECT * FROM sakila.actor ORDER BY last_name DESC, first_name;
 
 -- Exercício 4
 SELECT * FROM sakila.language WHERE name!='English';
+
+-- Exercício 5
+SELECT * FROM sakila.film;
