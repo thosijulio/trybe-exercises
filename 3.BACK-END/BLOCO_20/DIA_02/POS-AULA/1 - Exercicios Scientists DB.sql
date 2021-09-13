@@ -34,13 +34,12 @@ SELECT name, hours FROM Scientists.Projects ORDER BY hours DESC LIMIT 3;
 SELECT DISTINCT Project FROM Scientists.AssignedTo;
 
 -- Exercício 12
-SELECT * FROM Scientists.Projects ORDER BY Hours DESC LIMIT 1;
+SELECT Name FROM Scientists.Projects ORDER BY Hours DESC LIMIT 1;
 
 -- Exercício 13
-SELECT * FROM Scientists.Projects ORDER BY Hours ASC LIMIT 1 OFFSET 1;
+SELECT Name FROM Scientists.Projects ORDER BY Hours ASC LIMIT 1 OFFSET 1;
+
 -- Exercício 14
+SELECT * FROM Scientists.Projects ORDER BY Hours ASC LIMIT 5;
+
 -- Exercício 15
--- Exercício 16
--- Exercício 17
--- Exercício 18
--- Exercício 19
