@@ -31,7 +31,7 @@ SELECT CONCAT('O projeto "', name, '" precisou de ', Hours, ' horas para ser con
 SELECT name, hours FROM Scientists.Projects ORDER BY hours DESC LIMIT 3;
 
 -- Exercício 11
-
+SELECT DISTINCT Project FROM Scientists.AssignedTo;
 
 -- Exercício 12
 -- Exercício 13
