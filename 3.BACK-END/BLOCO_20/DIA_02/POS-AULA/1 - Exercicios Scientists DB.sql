@@ -16,6 +16,8 @@ SELECT 10 * 15 + 2;
 SELECT * FROM Scientists.Scientists;
 
 -- Exercício 6
+SELECT name AS 'Nome do Projeto', ssn AS 'Tempo de Trabalho' FROM Scientists.Scientists;
+
 -- Exercício 7
 -- Exercício 8
 -- Exercício 9
