@@ -28,7 +28,11 @@ SELECT name FROM Scientists.Projects ORDER BY name DESC;
 SELECT CONCAT('O projeto "', name, '" precisou de ', Hours, ' horas para ser concluído.') as Message FROM Scientists.Projects;
 
 -- Exercício 10
+SELECT name, hours FROM Scientists.Projects ORDER BY hours DESC LIMIT 3;
+
 -- Exercício 11
+
+
 -- Exercício 12
 -- Exercício 13
 -- Exercício 14
