@@ -18,7 +18,7 @@ SELECT title, description, release_year, replacement_cost
 FROM film
 WHERE rating <> 'NC-17'
 AND replacement_cost >= 18
-ORDER BY replacement_cost DESC, title
+ORDER BY replacement_cost, title
 LIMIT 100;
 
 -- Exercício 4
@@ -32,4 +32,10 @@ SELECT *
 FROM customer
 WHERE active IS NOT TRUE
 AND store_id = 1;
+
 -- Exercício 6
+SELECT title
+FROM film
+WHERE rating = 'NC-17'
+ORDER BY rental_rate, title
+LIMIT 50;
