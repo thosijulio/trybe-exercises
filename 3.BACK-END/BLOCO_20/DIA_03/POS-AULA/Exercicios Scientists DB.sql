@@ -17,6 +17,9 @@ SELECT * FROM Projects WHERE hours > 500;
 
 -- Exercício 6
 SELECT * FROM Projects WHERE hours BETWEEN 250 AND 800;
+
 -- Exercício 7
+SELECT name, code FROM Projects WHERE code NOT LIKE 'A%';
 
 -- Exercício 8
+SELECT name FROM Projects WHERE code LIKE '%H%';
