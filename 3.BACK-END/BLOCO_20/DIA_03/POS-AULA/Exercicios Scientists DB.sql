@@ -10,6 +10,7 @@ SELECT * FROM Projects WHERE code LIKE 'A%' ORDER BY name;
 SELECT code, name FROM Projects WHERE code LIKE '%3%' ORDER BY name;
 
 -- Exercício 4
+SELECT scientist FROM AssignedTo WHERE project IN('AeH3', 'Ast3', 'Che1');
 
 -- Exercício 5
 
