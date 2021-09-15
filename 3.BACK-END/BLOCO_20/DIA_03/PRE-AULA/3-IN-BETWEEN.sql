@@ -17,3 +17,4 @@ SELECT title, release_year, rental_duration from film WHERE rental_duration BETW
 ORDER BY rental_duration DESC, title;
 
 -- Exercício 5
+SELECT title, rating FROM film WHERE rating IN('G', 'PG', 'PG-13') ORDER BY title LIMIT 500;
