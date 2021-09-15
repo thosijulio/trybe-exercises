@@ -13,6 +13,7 @@ SELECT code, name FROM Projects WHERE code LIKE '%3%' ORDER BY name;
 SELECT scientist FROM AssignedTo WHERE project IN('AeH3', 'Ast3', 'Che1');
 
 -- Exercício 5
+SELECT * FROM Projects WHERE hours > 500;
 
 -- Exercício 6
 
