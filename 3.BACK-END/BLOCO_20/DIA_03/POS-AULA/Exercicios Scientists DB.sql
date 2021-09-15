@@ -16,7 +16,7 @@ SELECT scientist FROM AssignedTo WHERE project IN('AeH3', 'Ast3', 'Che1');
 SELECT * FROM Projects WHERE hours > 500;
 
 -- Exercício 6
-
+SELECT * FROM Projects WHERE hours BETWEEN 250 AND 800;
 -- Exercício 7
 
 -- Exercício 8
