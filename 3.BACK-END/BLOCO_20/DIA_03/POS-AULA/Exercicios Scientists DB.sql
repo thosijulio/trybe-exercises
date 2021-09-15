@@ -7,6 +7,7 @@ SELECT * FROM Scientists WHERE name LIKE '%E%';
 SELECT * FROM Projects WHERE code LIKE 'A%' ORDER BY name;
 
 -- Exercício 3
+SELECT code, name FROM Projects WHERE code LIKE '%3%' ORDER BY name;
 
 -- Exercício 4
 
