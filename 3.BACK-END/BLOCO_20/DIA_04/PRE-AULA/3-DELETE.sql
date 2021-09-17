@@ -12,9 +12,9 @@ DELETE FROM film_actor WHERE actor_id IN (8, 103, 181);
 DELETE FROM actor WHERE first_name = 'MATTHEW';
 
 -- Exercicio 3
+DELETE FROM film_text WHERE `description` LIKE '%SAGA%';
+
 
 -- Exercicio 4
-
--- Exercicio 5
-
--- Exercicio 6
+TRUNCATE film_actor;
+TRUNCATE film_category;
