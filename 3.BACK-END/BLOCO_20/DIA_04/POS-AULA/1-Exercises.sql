@@ -22,7 +22,15 @@ UPDATE Movies SET director = 'Andrew Staton' WHERE title = 'Procurando Nemo';
 UPDATE Movies SET title = 'Ratatouille', `year` = 2010 WHERE title = 'RATATUI';
 
 -- Exercício 5
+SELECT id, title FROM Movies WHERE title IN ('Monstros SA', 'Os Incríveis', 'Wall-E');
+INSERT INTO BoxOffice (movie_id, rating, domestic_sales, international_sales)
+VALUES 
+    (16, 8.5, 300000000, 250000000),
+	(18, 7.4, 460000000, 510000000),
+    (19, 9.9, 290000000, 280000000);
 
 -- Exercício 6
+DELETE FROM BoxOffice WHERE movie_id = 19;
+DELETE FROM Movies WHERE title = 'WALL-E';
 
 -- Exercício 7
