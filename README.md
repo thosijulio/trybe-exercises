@@ -159,7 +159,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ## Desenvolvimento Back-End ⏳
 
 
-#### Bloco 20: Introdução à SQL ⏳
+#### Bloco 20: Introdução à SQL ✔️
 
 - [x] 20-1: _Introdução Back-End / Banco de Dados Relacionais - Banco de Dados SQL_
 - [x] 20-2: _Encontrando dados em um Banco de Dados_
