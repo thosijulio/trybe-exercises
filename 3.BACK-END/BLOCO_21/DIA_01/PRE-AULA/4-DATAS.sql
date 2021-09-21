@@ -1,0 +1,5 @@
+-- Exercício 1
+SELECT DATEDIFF('2020-01-20', DATE(NOW()));
+
+-- Exercício 2
+SELECT TIMEDIFF('10:25:45', '11:00:00');
