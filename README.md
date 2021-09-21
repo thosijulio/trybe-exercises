@@ -165,7 +165,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 20-2: _Encontrando dados em um Banco de Dados_
 - [x] 20-3: _Filtrando dados de forma específica_
 - [x] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/20.4-)_
+- [x] 20-5: _[Projeto - All For One](https://github.com/thosijulio/trybe-projects/tree/main/3.BACK-END/20.5-MYSQL-ALL-FOR-ONE)_
 
 #### Bloco 21: Funções SQL, Joins e Subqueries ⏳
 
