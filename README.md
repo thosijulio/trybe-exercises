@@ -150,9 +150,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 18-3: _React Hooks - useEffect e Hooks Customizados_
 - [ ] 18-4: _[Projeto - Star Wars Datatable com Context API e Hooks](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/18.4-)_
 
-#### Bloco 19: Projeto App de Receitas ⏳
+#### Bloco 19: Projeto App de Receitas ✔️
 
-- [ ] 19-1: _[Projeto - App de Receitas](https://github.com/thosijulio/trybe-projects/blob/main/2.FRONT-END/19.1-)_
+- [x] 19-1: _Projeto - App de Receitas_ - (Projeto em Grupo)
 
 ---
 
