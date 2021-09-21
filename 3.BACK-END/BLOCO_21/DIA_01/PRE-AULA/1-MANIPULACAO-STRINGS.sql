@@ -7,8 +7,10 @@ SELECT UCASE('trybe');
 SELECT REPLACE('Você já ouviu falar do DuckDuckGo?', 'DuckDuckGo', 'Google');
 
 -- Exercício 3
+SELECT CHAR_LENGTH('Uma frase qualquer');
 
 -- Exercício 4
+SELECT SUBSTRING('A linguagem JavaScript está entre as mais usadas', 12, 11);
 
 -- Exercício 5
 
