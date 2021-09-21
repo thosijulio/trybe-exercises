@@ -13,7 +13,4 @@ SELECT CHAR_LENGTH('Uma frase qualquer');
 SELECT SUBSTRING('A linguagem JavaScript está entre as mais usadas', 12, 11);
 
 -- Exercício 5
-
--- Exercício 6
-
--- Exercício 7
+SELECT LCASE('RUA NORTE 1500, SÃO PAULO, BRASIL');
