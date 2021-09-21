@@ -8,5 +8,4 @@ SELECT ROUND(15.7515971, 5);
 SELECT FLOOR(39.494);
 
 -- Exercício 4
-
--- Exercício 5
+SELECT CEIL(85.234);
