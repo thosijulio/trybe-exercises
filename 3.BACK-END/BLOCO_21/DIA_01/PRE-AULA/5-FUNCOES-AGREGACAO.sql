@@ -10,5 +10,7 @@ SELECT MIN(length) AS `Duração Mínima` FROM sakila.film;
 SELECT MAX(length) AS `Duração Máxima` FROM sakila.film;
 
 -- Exercício 4
+SELECT SUM(length) AS `Tempo de Exibição Total` FROM sakila.film;
 
 -- Exercício 5
+SELECT COUNT(length) AS `Filmes Registrados` FROM sakila.film;
