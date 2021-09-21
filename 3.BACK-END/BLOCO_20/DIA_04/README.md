@@ -1,4 +1,4 @@
-# Dia 20.2: Encontrando dados em um banco de dados
+# Dia 20.4: Manipulando Tabelas
 
 ## &nbsp; Descrição dos Exercícios
 
