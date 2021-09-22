@@ -35,6 +35,7 @@ UPDATE hr.employees SET PHONE_NUMBER = REPLACE(PHONE_NUMBER, '515', '777') WHERE
 SELECT * FROM hr.employees WHERE CHAR_LENGTH(first_name) >= 8;
 
 -- Exercício 13
+SELECT employee_id, first_name, YEAR(hire_date) FROM hr.employees;
 
 -- Exercício 14
 
