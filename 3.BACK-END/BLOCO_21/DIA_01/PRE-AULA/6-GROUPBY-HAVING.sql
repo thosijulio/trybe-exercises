@@ -14,6 +14,7 @@ FROM sakila.customer GROUP BY active;
 SELECT store_id, `active`, COUNT(active) FROM sakila.customer GROUP BY store_id, active;
 
 -- Exercício 3
+SELECT rating, AVG(rental_duration) FROM sakila.film GROUP BY rating ORDER BY AVG(rental_duration) DESC;
 
 -- Exercício 4
 
