@@ -2,8 +2,10 @@
 SELECT MAX(SALARY) FROM hr.employees;
 
 -- Exercício 2
+SELECT (MAX(SALARY) - MIN(SALARY)) FROM hr.employees;
 
 -- Exercício 3
+SELECT JOB_ID, ROUND(AVG(SALARY), 2) AS SALARY_PER_JOB_ID FROM hr.employees GROUP BY JOB_ID ORDER BY SALARY_PER_JOB_ID DESC;
 
 -- Exercício 4
 
