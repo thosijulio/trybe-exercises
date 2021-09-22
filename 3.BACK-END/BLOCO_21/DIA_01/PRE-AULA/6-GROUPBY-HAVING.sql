@@ -11,6 +11,7 @@ SELECT
 FROM sakila.customer GROUP BY active;
 
 -- Exercício 2
+SELECT store_id, `active`, COUNT(active) FROM sakila.customer GROUP BY store_id, active;
 
 -- Exercício 3
 
