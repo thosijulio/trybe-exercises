@@ -20,7 +20,7 @@ SELECT rating, AVG(rental_duration) FROM sakila.film GROUP BY rating ORDER BY AV
 SELECT district, COUNT(address) FROM sakila.address GROUP BY district ORDER BY COUNT(address) DESC;
 
 -- Exercício 5
-SELECT rating, AVG(length) FROM sakila.film GROUP BY rating HAVING AVG(length) BETWEEN 115.0 AND 121.50;
+SELECT rating, AVG(length) FROM sakila.film GROUP BY rating HAVING AVG(length) BETWEEN 115.0 AND 121.50 ORDER BY AVG(length) DESC;
 
 -- Exercício 6
-SELECT * FROM sakila.address;
+SELECT rating, SUM(replacement_cost) sum_replacement_cost FROM sakila.film GROUP BY rating HAVING sum_replacement_cost > 3950.50 ORDER BY sum_replacement_cost;
