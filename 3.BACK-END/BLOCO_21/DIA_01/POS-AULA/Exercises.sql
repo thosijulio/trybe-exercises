@@ -14,6 +14,7 @@ SELECT SUM(SALARY) FROM hr.employees;
 SELECT MAX(SALARY), MIN(SALARY), SUM(SALARY), ROUND(AVG(SALARY), 2) FROM hr.employees;
 
 -- Exercício 6
+SELECT JOB_ID, COUNT(*) FROM hr.employees WHERE JOB_ID = 'IT_PROG';
 
 -- Exercício 7
 
