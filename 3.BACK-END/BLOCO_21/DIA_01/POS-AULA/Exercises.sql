@@ -44,7 +44,10 @@ SELECT employee_id, first_name, DAY(hire_date) FROM hr.employees;
 SELECT employee_id, first_name, MONTH(hire_date) FROM hr.employees;
 
 -- Exercício 16
+SELECT UCASE(CONCAT(first_name, ' ', last_name)) FROM hr.employees;
 
 -- Exercício 17
+SELECT last_name, hire_date FROM hr.employees WHERE hire_date BETWEEN '1987-07-01' AND '1987-07-31';
 
 -- Exercício 18
+SELECT first_name, last_name, DATEDIFF(NOW(), hire_date) FROM hr.employees;
