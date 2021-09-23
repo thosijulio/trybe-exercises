@@ -11,5 +11,16 @@ INNER JOIN sakila.address AS a
 ON a.address_id = c.address_id;
 
 -- Exercício 3
-
+SELECT 
+    c.customer_id,
+    c.first_name,
+    c.email,
+    a.address_id,
+    a.address
+FROM
+    sakila.customer AS c
+        INNER JOIN
+    sakila.address AS a ON a.address_id = c.address_id
+ORDER BY c.first_name
+LIMIT 100;
 -- Exercício 4
