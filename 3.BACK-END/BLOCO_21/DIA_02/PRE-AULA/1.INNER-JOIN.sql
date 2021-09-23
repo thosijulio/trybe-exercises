@@ -35,3 +35,15 @@ FROM
     sakila.address AS A ON C.address_id = A.address_id
 WHERE
     C.first_name LIKE '%rene%';
+
+-- Exercício 5
+SELECT 
+    c.first_name, COUNT(a.address) AS `quantidade de endereço`
+FROM
+    sakila.customer c
+        INNER JOIN
+    sakila.address AS a ON a.address_id = c.address_id
+WHERE
+    c.active = 1
+GROUP BY c.first_name
+ORDER BY first_name DESC;
