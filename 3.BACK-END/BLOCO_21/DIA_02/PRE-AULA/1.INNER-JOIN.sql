@@ -47,3 +47,15 @@ WHERE
     c.active = 1
 GROUP BY c.first_name
 ORDER BY first_name DESC;
+
+-- Exercício 6
+SELECT 
+    s.first_name, s.last_name, AVG(p.amount)
+FROM
+    sakila.staff AS s
+        INNER JOIN
+    sakila.payment AS p ON p.staff_id = s.staff_id
+GROUP BY s.first_name , s.last_name;
+
+-- Exercício 7
+
