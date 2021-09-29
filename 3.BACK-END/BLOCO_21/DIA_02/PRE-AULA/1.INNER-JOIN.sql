@@ -58,4 +58,11 @@ FROM
 GROUP BY s.first_name , s.last_name;
 
 -- Exercício 7
-
+SELECT 
+    a.actor_id, a.first_name, f.film_id, f.title
+FROM
+    sakila.actor AS a
+        INNER JOIN
+    sakila.film_actor AS fA ON a.actor_id = fA.actor_id
+        INNER JOIN
+    sakila.film AS f ON f.film_id = fA.film_id;
