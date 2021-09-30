@@ -38,4 +38,20 @@ WHERE
         FROM
             CarSales AS CS
         WHERE
-            CS.CustomerId = C.CustomerId)
+            CS.CustomerId = C.CustomerId);
+            
+-- Exercício 4
+SELECT 
+    Cus.Name, Car.Name
+FROM
+    hotel.Customers AS Cus
+        INNER JOIN
+    hotel.Cars AS Car
+WHERE
+    EXISTS( SELECT 
+            *
+        FROM
+            hotel.CarSales AS CS
+        WHERE
+            CS.CustomerID = Cus.CustomerId
+                AND CS.CarId = Car.Id);
