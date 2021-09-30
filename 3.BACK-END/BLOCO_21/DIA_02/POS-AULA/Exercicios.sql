@@ -64,3 +64,28 @@ WHERE
             Pixar.BoxOffice AS BO
         WHERE
             BO.movie_id = M.id) > 7.5;
+            
+-- Exercício 7 - PT1
+SELECT 
+    BO.rating
+FROM
+    Pixar.BoxOffice AS BO
+WHERE
+    BO.movie_id IN (SELECT 
+            id
+        FROM
+            Pixar.Movies AS M
+        WHERE
+            M.year > 2009);
+
+-- Exercício 7 - PT2
+SELECT 
+    BO.rating
+FROM
+    Pixar.BoxOffice AS BO
+        INNER JOIN
+    Pixar.Movies AS M ON M.id = BO.movie_id
+WHERE
+    M.year > 2009;
+
+-- Exercício 8
