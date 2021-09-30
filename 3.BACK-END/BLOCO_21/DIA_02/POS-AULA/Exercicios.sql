@@ -34,3 +34,12 @@ FROM
     Pixar.Theater AS T
         LEFT JOIN
     Pixar.Movies AS M ON M.theater_id = T.id ORDER BY `name`;
+    
+-- Exercício 5
+SELECT 
+    T.name, T.location, M.*
+FROM
+    Pixar.Theater AS T
+        RIGHT JOIN
+    Pixar.Movies AS M ON T.id = M.theater_id
+ORDER BY `name`;
