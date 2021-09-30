@@ -43,3 +43,24 @@ FROM
         RIGHT JOIN
     Pixar.Movies AS M ON T.id = M.theater_id
 ORDER BY `name`;
+
+-- Exercício 6 - PT1
+SELECT 
+    M.title
+FROM
+    Pixar.Movies AS M
+        INNER JOIN
+    Pixar.BoxOffice AS BO ON BO.movie_id = M.id WHERE BO.rating > 7.5;
+    
+-- Exercício 6 - PT2
+SELECT 
+    M.title
+FROM
+    Pixar.Movies AS M
+WHERE
+    (SELECT 
+            rating
+        FROM
+            Pixar.BoxOffice AS BO
+        WHERE
+            BO.movie_id = M.id) > 7.5;
