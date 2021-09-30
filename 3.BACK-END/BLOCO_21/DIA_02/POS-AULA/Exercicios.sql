@@ -89,3 +89,27 @@ WHERE
     M.year > 2009;
 
 -- Exercício 8
+SELECT 
+    T.name, T.location
+FROM
+    Pixar.Theater AS T
+WHERE
+    EXISTS( SELECT 
+            *
+        FROM
+            Pixar.Movies AS M
+        WHERE
+            M.theater_id = T.id);
+
+-- Exercício 9
+SELECT 
+    T.name, T.location
+FROM
+    Pixar.Theater AS T
+WHERE
+    NOT EXISTS( SELECT 
+            *
+        FROM
+            Pixar.Movies AS M
+        WHERE
+            T.id = M.theater_id);
