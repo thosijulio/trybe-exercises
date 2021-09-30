@@ -23,7 +23,30 @@ WHERE
     first_name LIKE '%JE%';
 
 -- Exercício 3
-(SELECT first_name FROM sakila.actor ORDER BY actor_id DESC LIMIT 5)
-UNION (SELECT first_name FROM sakila.staff LIMIT 1) UNION (SELECT first_name FROM sakila.customer LIMIT 5 OFFSET 15) ORDER BY first_name;
+(SELECT 
+    first_name
+FROM
+    sakila.actor
+ORDER BY actor_id DESC
+LIMIT 5) UNION (SELECT 
+    first_name
+FROM
+    sakila.staff
+LIMIT 1) UNION (SELECT 
+    first_name
+FROM
+    sakila.customer
+LIMIT 5 OFFSET 15) ORDER BY first_name;
 
--- Exercício 4
+-- Exercício 
+(SELECT 
+    first_name, last_name
+FROM
+    sakila.actor
+ORDER BY first_name , last_name
+LIMIT 60) UNION ALL (SELECT 
+    first_name, last_name
+FROM
+    sakila.customer
+ORDER BY first_name , last_name
+LIMIT 60) ORDER BY first_name , last_name LIMIT 15 OFFSET 45;
