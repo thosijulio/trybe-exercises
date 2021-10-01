@@ -2,7 +2,7 @@
 
 ## &nbsp; Descrição dos Exercícios
 
-## [Parte 1](./DIA_02/PRE-AULA/) - Exercícios Pré Aula.
+## [Parte 1](./PRE-AULA/) - Exercícios Pré Aula.
 
 Para a realização dos exercícios 1, 2 e 3, foi utilizado o banco de dados [Sakila](https://dev.mysql.com/doc/sakila/en/).
 
@@ -38,7 +38,7 @@ Foi utilizado o banco de dados "Hotel" para solucionar os seguintes exercícios:
   - Criar uma query que exiba apenas o nome dos clientes que ainda não compraram um carro.
   - Criar uma query que exiba o nome do cliente e o modelo do carro de todos os clientes que fizeram compras de carros.
 
-## [Parte 2](./DIA_04/POS-AULA/1-Exercicios.sql) - Exercícios Pós Aula.
+## [Parte 2](./POS-AULA/Exercicios.sql) - Exercícios Pós Aula.
 
 ### &nbsp;&nbsp; Exercicios
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
@@ -54,7 +54,7 @@ Foi utilizado o banco de dados "Pixar" para solucionar os seguintes exercícios:
   - Criar uma query, com o EXISTS, que exiba o nome e localização dos cinemas que possuem filmes em cartaz;
   - Criar uma query, com o EXISTS, que exiba o nome e localização dos cinemas que não possuem filmes em cartaz.
 
-## [Parte 3](./DIA_04/BONUS/Bonus.sql) - Exercícios Pós Aula - Bônus.
+## [Parte 3](./BONUS/Bonus.sql) - Exercícios Pós Aula - Bônus.
 
 ### &nbsp;&nbsp; Exercicios
   <b>&nbsp;&nbsp;&nbsp;Conteúdo Solicitado: </b> <br>
