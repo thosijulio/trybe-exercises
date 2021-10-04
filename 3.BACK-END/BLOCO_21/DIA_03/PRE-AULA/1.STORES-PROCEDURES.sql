@@ -34,3 +34,20 @@ END $$
 DELIMITER ;
 
 CALL mostrarFilmesComCategoria('Animation');
+
+-- Exercício 3
+
+USE sakila;
+
+DELIMITER $$
+
+CREATE PROCEDURE verificaStatusDoCliente(IN clientEmail VARCHAR(50), OUT clientStatus VARCHAR(20))
+BEGIN
+SELECT `active` INTO clientStatus FROM customer WHERE email = clientEmail;
+END $$
+
+DELIMITER ;
+
+CALL verificaStatusDoCliente('MARY.SMITH@sakilacustomer.org', @clientStatus);
+
+SELECT @clientStatus;
