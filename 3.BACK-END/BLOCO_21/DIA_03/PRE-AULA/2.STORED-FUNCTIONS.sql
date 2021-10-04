@@ -61,11 +61,9 @@ BEGIN
 	SELECT 
 		COUNT(*)
 	FROM
-		film AS F
+		category AS C
 			INNER JOIN
-		film_category AS FC ON FC.film_id = F.film_id
-			INNER JOIN
-		category AS C ON C.category_id = FC.category_id
+		film_category AS FC ON FC.category_id = C.category_id
 	WHERE
 		C.`name` = categoria INTO qtdeFilmes;
 	RETURN qtdeFilmes;
@@ -73,4 +71,4 @@ END $$
 
 DELIMITER ;
 
-SELECT qtdeDeFilmeDaCategoria('Animation');
+SELECT qtdeDeFilmeDaCategoria('Action');
