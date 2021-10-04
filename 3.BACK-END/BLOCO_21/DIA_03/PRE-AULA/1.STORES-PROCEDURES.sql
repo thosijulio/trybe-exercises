@@ -19,8 +19,18 @@ USE sakila;
 
 DELIMITER $$
 
-CREATE PROCEDURE()
+CREATE PROCEDURE mostrarFilmesComCategoria(IN categoria VARCHAR(30))
 BEGIN
+	SELECT 
+    F.film_id, F.title, C.category_id, C.name
+FROM
+    film AS F
+        INNER JOIN
+    film_category AS FC ON FC.film_id = F.film_id
+        INNER JOIN
+    category AS C ON C.category_id = FC.category_id WHERE C.name = categoria;
 END $$
 
 DELIMITER ;
+
+CALL mostrarFilmesComCategoria('Animation');
