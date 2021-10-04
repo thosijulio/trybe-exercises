@@ -47,3 +47,30 @@ END $$
 DELIMITER ;
 
 SELECT FILMEVINCULADOAINVENTARIO(1);
+
+USE sakila;
+
+-- Exercício 3
+USE sakila;
+DELIMITER $$
+
+CREATE FUNCTION qtdeDeFilmeDaCategoria(categoria VARCHAR(50))
+RETURNS INT READS SQL DATA
+BEGIN
+	DECLARE qtdeFilmes INT;
+	SELECT 
+		COUNT(*)
+	FROM
+		film AS F
+			INNER JOIN
+		film_category AS FC ON FC.film_id = F.film_id
+			INNER JOIN
+		category AS C ON C.category_id = FC.category_id
+	WHERE
+		C.`name` = categoria INTO qtdeFilmes;
+	RETURN qtdeFilmes;
+END $$
+
+DELIMITER ;
+
+SELECT qtdeDeFilmeDaCategoria('Animation');
