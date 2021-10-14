@@ -167,7 +167,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 20-4: _Manipulando tabelas_
 - [x] 20-5: _[Projeto - All For One](https://github.com/thosijulio/trybe-projects/tree/main/3.BACK-END/20.5-MYSQL-ALL-FOR-ONE)_
 
-#### Bloco 21: Funções SQL, Joins e Subqueries ⏳
+#### Bloco 21: Funções SQL, Joins e Subqueries ✔️
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
