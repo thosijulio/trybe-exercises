@@ -171,7 +171,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines & Stored Functions_
+- [x] 21-3: _Stored Routines & Stored Functions_
 - [ ] 21-4: _[Projeto - Vocabulary Booster](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/21.4-)_
 
 #### Bloco 22: Normalização e Modelagem de Banco de Dados ⏳
