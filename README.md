@@ -176,7 +176,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 #### Bloco 22: Normalização e Modelagem de Banco de Dados ⏳
 
-- [ ] 22-1: _Transformando ideias em um modelo de Banco de Dados_
+- [x] 22-1: _Transformando ideias em um modelo de Banco de Dados_
 - [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-3: _Transformando ideias em um modelo de Banco de Dados - Parte 2_
 - [ ] 22-4: _[Projeto - One For All](https://github.com/thosijulio/trybe-projects/blob/main/3.BACK-END/22.4-)_
