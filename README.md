@@ -174,7 +174,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 21-3: _Stored Routines & Stored Functions_ 
 - [x] 21-4: _[Projeto - Vocabulary Booster](https://github.com/thosijulio/trybe-projects/tree/main/3.BACK-END/21.4-MYSQL-VOCABULARY-BOOSTER)_
 
-#### Bloco 22: Normalização e Modelagem de Banco de Dados ⏳
+#### Bloco 22: Normalização e Modelagem de Banco de Dados ✔️
 
 - [x] 22-1: _Transformando ideias em um modelo de Banco de Dados - Parte 1_
 - [x] 22-2: _Normalização, Formas Normais e Dumps_
