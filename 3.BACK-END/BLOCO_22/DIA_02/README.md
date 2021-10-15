@@ -34,7 +34,7 @@ Resolução:
     <img alt="Tabela 2 - Criador" src="https://github.com/thosijulio/trybe-exercises/blob/exercises/22.2/3.BACK-END/BLOCO_22/DIA_02/exercicios/2.2.jpg"/>
 </p>
   <p align="center">
-    <img alt="Tabela 3 - Liga" src="https://github.com/thosijulio/trybe-exercises/blob/main/3.BACK-END/BLOCO_22/DIA_02/exercicios/2.3.jpg"/>
+    <img alt="Tabela 3 - Liga" src="https://github.com/thosijulio/trybe-exercises/blob/main/3.BACK-END/BLOCO_22/DIA_02/exercicios/2.3%20-%202.jpg"/>
 </p>
   <h1 align="center">
     <img alt="Tabela 4 - Universo" src="https://github.com/thosijulio/trybe-exercises/blob/exercises/22.2/3.BACK-END/BLOCO_22/DIA_02/exercicios/2.4.jpg"/>
