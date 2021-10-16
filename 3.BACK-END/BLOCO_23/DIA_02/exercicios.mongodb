@@ -47,9 +47,22 @@ use ('exercicios');
 db.superheroes.count({ 'aspects.heigth': { $not: { $gt: 180 } } });
 
 // Exercício 13
+use ('exercicios');
+
 // Exercício 14
+use ('exercicios');
+
 // Exercício 15
+use ('exercicios');
+
 // Exercício 16
+use ('exercicios');
+
 // Exercício 17
+use ('exercicios');
+
 // Exercício 18
+use ('exercicios');
+
 // Exercício 19
+use ('exercicios');
