@@ -15,9 +15,14 @@ use('exercicios');
 db.bios.find({ 'name.first': 'John' }).pretty();
 
 // Exercício 5
-use ('exercicios');
+use('exercicios');
 db.bios.find().limit(3).pretty();
 
 // Exercício 6
-use ('exercicios');
+use('exercicios');
 db.bios.find().limit(2).skip(5);
+
+// Comando para importar o json (Requisitos 7 a 10): mongoimport --db=exercicios --collection=books --file=books-48d15e4d8924badc2308cc4a62eb3ea4.json
+// Exercício 7
+use('exercicios');
+db.bios.count();
