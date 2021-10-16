@@ -1,0 +1,7 @@
+//Exercício 1
+use ('exercicios');
+db.superheroes.findOne();
+
+//Exercício 2
+use ('exercicios');
+db.superheroes.find({ 'aspects.height': { $lt: 180 } });
