@@ -9,3 +9,11 @@ db.superheroes.find({ 'aspects.height': { $lt: 180 } });
 // Exercício 3
 use ('exercicios');
 db.superheroes.count({ 'aspects.height': { $lt: 180 } });
+
+// Exercício 4
+use ('exercicios');
+db.superheroes.count({ 'aspects.height': { $lte: 180 } });
+
+// Exercício 5
+use ('exercicios');
+db.superheroes.findOne({ 'aspects.height': { $gte: 180 } });
