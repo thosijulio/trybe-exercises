@@ -1,0 +1,40 @@
+// Exercício 1
+use('exercicios');
+db.bios.find({ _id: 1 });
+
+// Exercício 2
+use('exercicios');
+db.bios.find({ _id: 1 }, { name: true });
+
+// Exercício 3
+use('exercicios');
+db.bios.find({ _id: 8 }, { name: true, birth: true, _id: false });
+
+// Exercício 4
+use('exercicios');
+db.bios.find({ 'name.first': 'John' }).pretty();
+
+// Exercício 5
+use('exercicios');
+db.bios.find().limit(3).pretty();
+
+// Exercício 6
+use('exercicios');
+db.bios.find().limit(2).skip(5);
+
+// Comando para importar o json (Requisitos 7 a 10): mongoimport --db=exercicios --collection=books --file=books-48d15e4d8924badc2308cc4a62eb3ea4.json
+// Exercício 7
+use('exercicios');
+db.books.count();
+
+// Exercicio 8
+use('exercicios');
+db.books.count({ status: 'PUBLISH' });
+
+// Exercicio 9
+use('exercicios');
+db.books.find({}, { title: true, isbn: true, pageCount: true, _id: false }).limit(3);
+
+// Exercício 10
+use('exercicios');
+db.books.find({ status: 'MEAP' }, { _id: false , title: true , authors: true, status: true });
