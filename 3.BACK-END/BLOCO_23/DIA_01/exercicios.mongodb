@@ -34,3 +34,7 @@ db.books.count({ status: 'PUBLISH' });
 // Exercicio 9
 use('exercicios');
 db.books.find({}, { title: true, isbn: true, pageCount: true, _id: false }).limit(3);
+
+// Exercício 10
+use('exercicios');
+db.books.find({ status: 'MEAP' }, { _id: false , title: true , authors: true, status: true });
