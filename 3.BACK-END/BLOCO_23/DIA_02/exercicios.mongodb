@@ -16,7 +16,7 @@ db.superheroes.count({ 'aspects.height': { $lte: 180 } });
 
 // Exercício 5
 use ('exercicios');
-db.superheroes.findOne({ 'aspects.height': { $gte: 180 } });
+db.superheroes.findOne({ 'aspects.height': { $gte: 200 } });
 
 // Exercício 6
 use ('exercicios');
@@ -44,4 +44,12 @@ db.superheroes.count({ 'aspects.hairColor': { $nin: [ 'black', 'No Hair' ] } });
 
 // Exercício 12
 use ('exercicios');
-db.superheroes.count({ 'aspects.hairColor': { $nin: [ 'black', 'No Hair' ] } });
+db.superheroes.count({ 'aspects.heigth': { $not: { $gt: 180 } } });
+
+// Exercício 13
+// Exercício 14
+// Exercício 15
+// Exercício 16
+// Exercício 17
+// Exercício 18
+// Exercício 19
