@@ -17,3 +17,7 @@ db.bios.find({ 'name.first': 'John' }).pretty();
 // Exercício 5
 use ('exercicios');
 db.bios.find().limit(3).pretty();
+
+// Exercício 6
+use ('exercicios');
+db.bios.find().limit(2).skip(5);
