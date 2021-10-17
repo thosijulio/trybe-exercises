@@ -72,3 +72,4 @@ db.superheroes.deleteOne({ publisher: 'Sony Pictures' });
 
 // Exercício 19
 use ('exercicios');
+db.superheroes.deleteMany({ publisher: 'George Lucas' });
