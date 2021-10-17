@@ -1,0 +1,75 @@
+//Exercício 1
+use ('exercicios');
+db.superheroes.findOne();
+
+//Exercício 2
+use ('exercicios');
+db.superheroes.find({ 'aspects.height': { $lt: 180 } });
+
+// Exercício 3
+use ('exercicios');
+db.superheroes.count({ 'aspects.height': { $lt: 180 } });
+
+// Exercício 4
+use ('exercicios');
+db.superheroes.count({ 'aspects.height': { $lte: 180 } });
+
+// Exercício 5
+use ('exercicios');
+db.superheroes.findOne({ 'aspects.height': { $gte: 200 } });
+
+// Exercício 6
+use ('exercicios');
+db.superheroes.count({ 'aspects.height': { $gte: 200 } });
+
+// Exercício 7
+use ('exercicios');
+db.superheroes.find({ 'aspects.eyeColor': 'green' });
+
+// Exercício 8
+use ('exercicios');
+db.superheroes.count({ 'aspects.eyeColor': 'blue' });
+
+// Exercício 9
+use ('exercicios');
+db.superheroes.find({ 'aspects.hairColor': { $in: [ 'black', 'No Hair' ] } });
+
+// Exercício 10
+use ('exercicios');
+db.superheroes.count({ 'aspects.hairColor': { $in: [ 'black', 'No Hair' ] } });
+
+// Exercício 11
+use ('exercicios');
+db.superheroes.count({ 'aspects.hairColor': { $nin: [ 'black', 'No Hair' ] } });
+
+// Exercício 12
+use ('exercicios');
+db.superheroes.count({ 'aspects.heigth': { $not: { $gt: 180 } } });
+
+// Exercício 13
+use ('exercicios');
+db.superheroes.find({ $nor: [ { race: 'Human' } , { 'aspects.height': { $gt: 180 } } ] });
+
+// Exercício 14
+use ('exercicios');
+db.superheroes.find({ $and: [ { 'aspects.height': { $in : [ 180, 200 ] } } ], publisher: 'Marvel Comics' });
+
+// Exercício 15
+use ('exercicios');
+db.superheroes.find({ $and: [ { 'aspects.weight': { $gte: 80, $lte: 100 } }, { $or: [ { race: 'Human' }, { race: 'Mutant' } ] }, { publisher: { $ne: 'DC Comics' } } ] });
+
+// Exercício 16
+use ('exercicios');
+db.superheroes.count({ race: { $exists: false } })
+
+// Exercício 17
+use ('exercicios');
+db.superheroes.count({ 'aspects.hairColor': { $exists: true } })
+
+// Exercício 18
+use ('exercicios');
+db.superheroes.deleteOne({ publisher: 'Sony Pictures' });
+
+// Exercício 19
+use ('exercicios');
+db.superheroes.deleteMany({ publisher: 'George Lucas' });
