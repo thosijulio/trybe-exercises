@@ -56,6 +56,7 @@ db.superheroes.find({ $and: [ { 'aspects.height': { $in : [ 180, 200 ] } } ], pu
 
 // Exercício 15
 use ('exercicios');
+db.superheroes.find({ $and: [ { 'aspects.weight': { $gte: 80, $lte: 100 } } ] });
 
 // Exercício 16
 use ('exercicios');
