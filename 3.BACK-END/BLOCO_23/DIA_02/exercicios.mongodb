@@ -68,6 +68,7 @@ db.superheroes.count({ 'aspects.hairColor': { $exists: true } })
 
 // Exercício 18
 use ('exercicios');
+db.superheroes.deleteOne({ publisher: 'Sony Pictures' });
 
 // Exercício 19
 use ('exercicios');
