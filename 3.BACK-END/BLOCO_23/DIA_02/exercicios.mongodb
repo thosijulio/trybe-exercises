@@ -60,10 +60,11 @@ db.superheroes.find({ $and: [ { 'aspects.weight': { $gte: 80, $lte: 100 } }, { $
 
 // Exercício 16
 use ('exercicios');
-db.superheroes.find({ race: { $exists: false } })
+db.superheroes.count({ race: { $exists: false } })
 
 // Exercício 17
 use ('exercicios');
+db.superheroes.count({ 'aspects.hairColor': { $exists: true } })
 
 // Exercício 18
 use ('exercicios');
