@@ -52,6 +52,7 @@ db.superheroes.find({ $nor: [ { race: 'Human' } , { 'aspects.height': { $gt: 180
 
 // Exercício 14
 use ('exercicios');
+db.superheroes.find({ $and: [ { 'aspects.height': { $in : [ 180, 200 ] } } ], publisher: 'Marvel Comics' });
 
 // Exercício 15
 use ('exercicios');
