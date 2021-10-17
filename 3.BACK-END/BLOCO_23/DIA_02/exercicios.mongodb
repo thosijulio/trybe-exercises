@@ -48,6 +48,7 @@ db.superheroes.count({ 'aspects.heigth': { $not: { $gt: 180 } } });
 
 // Exercício 13
 use ('exercicios');
+db.superheroes.find({ $nor: [ { race: 'Human' } , { 'aspects.height': { $gt: 180 } } ] });
 
 // Exercício 14
 use ('exercicios');
