@@ -1,0 +1,3 @@
+use ('class');
+
+db.movies.update({ title: 'Batman' }, { imdbRating: 7.7 });
