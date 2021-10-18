@@ -1,0 +1,3 @@
+use ('class');
+
+db.movies.updateMany({}, { $unset: { budget: true, estimatedBudget: true } });
