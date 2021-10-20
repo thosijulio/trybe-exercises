@@ -1,0 +1,1 @@
+db.movies.find({ ratings: { $gt: 103 } }, { title: true, ratings: true, _id: false });
