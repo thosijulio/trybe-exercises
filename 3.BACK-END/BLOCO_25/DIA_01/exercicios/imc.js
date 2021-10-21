@@ -19,6 +19,4 @@ const calcImc = () => {
   console.log(`IMC: ${imc}. ${getImcSituation(imc)}.`);
 };
 
-calcImc();
-
-module.exports = { calcImc };
+module.exports = calcImc;
