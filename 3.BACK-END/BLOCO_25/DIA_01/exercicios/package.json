@@ -4,8 +4,12 @@
   "description": "exercicios do dia 24.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node imc.js"
   },
   "author": "Julio H. Thosi <thosijulio@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lint": "^0.7.0"
+  }
 }
