@@ -10,6 +10,7 @@
   "author": "Julio H. Thosi <thosijulio@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "lint": "^0.7.0"
+    "lint": "^0.7.0",
+    "readline-sync": "^1.4.10"
   }
 }
