@@ -1,0 +1,8 @@
+db.transactions.aggregate([
+  {
+    $group: {
+      _id: "$bank",
+      bank: { $sum: 1 },
+    },
+  },
+]);
