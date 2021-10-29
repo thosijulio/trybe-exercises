@@ -9,7 +9,8 @@
     "velocidade": "node ./exercicios/velocidade.js",
     "sorteio": "node ./exercicios/sorteio.js",
     "start": "node ./exercicios/index.js",
-    "fatorial": "node ./exercicios/fatorial.js"
+    "fatorial": "node ./exercicios/fatorial.js",
+    "fibonacci": "node ./exercicios/fibonacci.js"
   },
   "author": "",
   "license": "ISC",
