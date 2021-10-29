@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "imc": "node ./exercicios/imc.js",
     "velocidade": "node ./exercicios/velocidade.js",
-    "sorteio": "node ./exercicios/sorteio.js"
+    "sorteio": "node ./exercicios/sorteio.js",
+    "start": "node ./exercicios/index.js"
   },
   "author": "",
   "license": "ISC",
