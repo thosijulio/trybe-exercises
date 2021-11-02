@@ -13,6 +13,4 @@ const exercicio1 = (num1, num2, num3) => {
   });
 };
 
-exercicio1(2, 'f', 2)
-  .then((valor) => console.log(valor))
-  .catch((err) => console.log(err));
+module.exports = exercicio1;
