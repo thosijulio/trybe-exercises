@@ -14,4 +14,8 @@ describe('A funcao "numberSignal" devera retornar: ', () => {
     const result = numberSignal(0);
     expect(result).to.be.equal('neutro');
   });
+  it('Uma mensagem de erro, caso o parametro informado não seja um número', () => {
+    const result = numberSignal('f');
+    expect(result).to.be.equal('o valor deve ser um número');
+  });
 });
