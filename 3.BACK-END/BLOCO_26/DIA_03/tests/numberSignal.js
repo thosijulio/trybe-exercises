@@ -1,4 +1,4 @@
-const { expect, assert } = require('chai');
+const { expect } = require('chai');
 const exerc1 = require('../exercicios/exercicio1');
 
 describe('A funcao "exerc1" devera retornar: ', () => {
