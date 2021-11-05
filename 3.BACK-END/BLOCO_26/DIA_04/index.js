@@ -24,9 +24,19 @@ app.put('/users/:name/:age', (req, res) => {
   res.status(200).send({ message: `Seu nome é ${ name } e você tem ${ age } anos de idade.` });
 });
 
+app.get('/simpsons/:id', async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const simpsons = (JSON.parse(await fs.readFile('./simpsons.json', 'utf-8'))).find((simp) => simp.id === id);
+    res.status(200).send(simpsons);
+  } catch(err) {
+    next(err);
+  };
+});
+
 app.get('/simpsons', async (req, res, next) => {
   try {
-    const simpsons = JSON.parse(await fs.readFile('./simdpsons.json', 'utf-8'));
+    const simpsons = JSON.parse(await fs.readFile('./simpsons.json', 'utf-8'));
     res.status(200).json(simpsons);
   } catch (error) {
     next(error);
