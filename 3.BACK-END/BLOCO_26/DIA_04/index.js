@@ -1,4 +1,5 @@
 const express = require('express');
+const rescue = require('express-rescue');
 const fs = require('fs').promises;
 const app = express();
 
@@ -24,20 +25,21 @@ app.put('/users/:name/:age', (req, res) => {
   res.status(200).send({ message: `Seu nome é ${ name } e você tem ${ age } anos de idade.` });
 });
 
-app.get('/simpsons/:id', async (req, res, next) => {
+app.get('/simpsons/:id', rescue(async (req, res, next) => {
   try {
     const { id } = req.params;
     const simpsons = (JSON.parse(await fs.readFile('./simpsons.json', 'utf-8'))).find((simp) => simp.id === id);
-    res.status(200).send(simpsons);
+    if (simpsons) return res.status(200).send(simpsons)
+    else return res.status(404).end();
   } catch(err) {
     next(err);
   };
-});
+}));
 
 app.get('/simpsons', async (req, res, next) => {
   try {
     const simpsons = JSON.parse(await fs.readFile('./simpsons.json', 'utf-8'));
-    res.status(200).json(simpsons);
+    return res.status(200).json(simpsons);
   } catch (error) {
     next(error);
   };
