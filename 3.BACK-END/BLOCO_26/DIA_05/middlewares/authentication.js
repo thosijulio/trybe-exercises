@@ -22,8 +22,17 @@ const emailAuth = (req, res, next) => {
   return next({ message: 'invalid data' });
 };
 
+const tokenAuth = (req, res, next) => {
+  const { authorization } = req.headers;
+  if (!authorization || !/^[a-zA-Z0-9]+$/.test(authorization)) {
+    return res.status(400).json({ message: 'invalid token' });
+  }
+  return next();
+};
+
 module.exports = {
   passwordAuth,
   usernameAuth,
   emailAuth,
+  tokenAuth,
 };
