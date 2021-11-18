@@ -1,0 +1,18 @@
+{
+  "name": "dia_05",
+  "version": "1.0.0",
+  "description": "exercicios do dia 26.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thosijulio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rescue": "^1.1.31",
+    "nodemon": "^2.0.15"
+  }
+}
