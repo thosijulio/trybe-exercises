@@ -5,7 +5,7 @@ const mainRouter = require('./controller/');
 const error = require('./controller/middleware/error');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 app.use(cors());
 app.use(express.json());

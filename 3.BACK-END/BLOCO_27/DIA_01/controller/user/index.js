@@ -15,4 +15,9 @@ router.post('/', verifyUser, async (req, res, next) => {
   };
 });
 
+router.get('/', async (req, res) => {
+  const user = await db.user.find();
+  res.status(200).json(user);
+});
+
 module.exports = router;
