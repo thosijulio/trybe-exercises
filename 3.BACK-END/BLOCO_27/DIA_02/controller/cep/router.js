@@ -10,4 +10,11 @@ router.get('/:cep', verifyCep, async (req, res) => {
   res.status(status).send(message);
 })
 
+router.post('/', async (req, res) => {
+  const address = req.body;
+  const result = await service.cep.createAddress(address); 
+
+  res.status(200).send(address);
+});
+
 module.exports = router;
