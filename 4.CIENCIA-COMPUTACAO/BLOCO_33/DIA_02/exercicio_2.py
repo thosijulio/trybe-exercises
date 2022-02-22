@@ -1,6 +1,6 @@
 import random
 
-word_list = ["teste", "fourc"]
+words_list = ["teste", "fourc"]
 
 def get_word(words_list):
     word = random.choice(words_list)
@@ -22,7 +22,7 @@ def get_guesses(attempts):
 
 
 print("Jogo de adivinhação de palavra")
-word = get_word(word_list)
+word = get_word(words_list)
 scramble_word = get_scrambled_word(word)
 
 print("Palavra embaralhada:", scramble_word)
