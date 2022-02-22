@@ -1,39 +1,33 @@
 import random
 
+word_list = ["teste", "fourc"]
 
-WORDS = [
-    "cat",
-    "elephant",
-    "dog",
-    "monkey",
-    "duck",
-    "chameleon",
-    "bear",
-    "moose",
-]
+def get_word(words_list):
+    word = random.choice(words_list)
+    return word
 
-ATTEMPTS = 3
 
-def create_secret_word(words):
-    secret_word = random.choice(words)
-    scrambled_word = "".join(random.sample(secret_word, len(secret_word)))
-    return secret_word, scrambled_word
+def get_scrambled_word(word):
+    return "".join(random.sample(word, len(word)))
 
-def create_guesses(scrambled_word):
+
+def get_guesses(attempts):
     guesses = []
-    print("Scrambled word is:", scrambled_word)
-    for attempt in range(ATTEMPTS):
-        choise = input('choise a word:')
-        guesses.append(choise)
+
+    for attempt in range(attempts):
+        guess = input("Digite uma palavra:")
+        guesses.append(guess)
+    
     return guesses
 
-def check_game_result(secret_word, guesses):
-    if secret_word in guesses:
-        print("Parabéns! A palavra sorteada era:", secret_word)
-    else:
-        print("Você errou! A palavra era:", secret_word)
 
-if __name__ == "__main__":
-    secret_word, scrambled_word = create_secret_word(WORDS)
-    guesses = create_guesses(scrambled_word)
-    check_game_result(secret_word, guesses)
+print("Jogo de adivinhação de palavra")
+word = get_word(word_list)
+scramble_word = get_scrambled_word(word)
+
+print("Palavra embaralhada:", scramble_word)
+guesses = get_guesses(3)
+if word in guesses:
+    print("Parabéns, você ganhou! Palavra sorteada:", word)
+else:
+    print("Voce errou! A palavra sorteada era:", word)
