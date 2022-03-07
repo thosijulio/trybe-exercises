@@ -1,5 +1,4 @@
-def exercicio1():
-    numbers = input("Digite os numeros:").split(",")
+def exercicio1(numbers):
     result = []
     for number in numbers:
         if (int(number) % 3 == 0):
@@ -9,7 +8,4 @@ def exercicio1():
         else:
             result.append(int(number))
     
-    print(result)
-
-  
-exercicio1()
+    return result
