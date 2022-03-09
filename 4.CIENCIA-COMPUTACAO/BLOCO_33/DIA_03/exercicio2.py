@@ -20,5 +20,3 @@ def get_number_by_expression(expression):
         elif symbol in ["W", "X", "Y", "Z"]:
             number.append("9")
     return "".join(number)
-
-print(get_number_by_expression("1-HOME-SWEET-HOME"))
