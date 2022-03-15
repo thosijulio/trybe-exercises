@@ -11,7 +11,6 @@ class Retangulo:
         perimetro = 2 * (self.base + self.altura)
         print("Perimetro do retangulo:", perimetro)
 
-
 novo_retangulo = Retangulo(10, 15)
 
 print(novo_retangulo.altura)
