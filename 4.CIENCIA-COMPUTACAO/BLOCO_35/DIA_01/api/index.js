@@ -4,8 +4,8 @@ const app = express();
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-  res.send("oi")
+app.get('/', (_req, res) => {
+  res.send("Requisito realizada")
 });
 
 app.put('/', (req, res) => {
